@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patent Applications</title>
+    <link rel="stylesheet" href="/font.css">
+    <link rel="stylesheet" href="R&D.css">
+
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+        }
+
+table {
+    width: 95%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+     background-color: rebeccapurple;
+            color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+    </style>
+     <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        fetch("/Header_folder/nav.html")
+          .then((response) => response.text())
+          .then((data) => {
+            document.getElementById("nav-container").innerHTML = data;
+            // Load the nav.js file after the HTML is loaded
+            let script = document.createElement("script");
+            script.src = "/Header_folder/nav.js";
+            document.body.appendChild(script);
+          });
+      });
+      document.addEventListener("DOMContentLoaded", function () {
+        fetch("/Footer_folder/footer.html") // Load the nav.html file
+          .then((response) => response.text()) // Get its content
+          .then((data) => {
+            document.getElementById("footer-container").innerHTML = data; // Insert into the page
+          });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="nav-container"></div>
+    <div id="img">
+      <img src="./dunedin-university-of.jpg" alt="">
+      <div id="nameDiv">
+          <h2>Patent</h2>
+          <div id="line"></div>
+
+      </div>
+  </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>S. No.</th>
+                <th>Patent Application Title</th>
+                <th>Applicant</th>
+                <th>Year of Application</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>A System For Multilingo Abomination Detection Using Machine Learning</td>
+                <td>Devendra Mishra, Arvind Kumar Upadhyay, Sanjiv Sharma</td>
+                <td>2022</td>
+                <td>Filed</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>A System For Detection Of Conceptual Level Plagiarism And Correctness Of File Formatting Using Machine Learning</td>
+                <td>Devendra Kumar Mishra, Arvind Kumar Upadhyay, Sanjiv Sharma</td>
+                <td>2022</td>
+                <td>Filed</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>An AI Based System to Detect Person and Their Activity in Low Illuminated Space and Method Thereof</td>
+                <td>Dr Shishir Dixit et. al.</td>
+                <td>2022</td>
+                <td>Published</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Cup</td>
+                <td>Dr Shishir Dixit et. al.</td>
+                <td>2022</td>
+                <td>Published</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Microbial Fuel Cell Based on Plants for Electricity Generation</td>
+                <td>Dr Shishir Dixit et. al.</td>
+                <td>2022</td>
+                <td>Published</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Fuzzy logic-based query expansion method for efficient information retrieval using relevance feedback approach</td>
+                <td>Dr. Saumil Maheshwari et. al.</td>
+                <td>2021</td>
+                <td>Granted</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Smart Necklace and Wrist Band with Machine Learning Based Image Processing and GPS System And Method For Monitoring Health Of</td>
+                <td>Dr. Vikram Rajpoot et. al.</td>
+                <td>2021</td>
+                <td>Published</td>
+            </tr>
+        </tbody>
+    </table>
+        <div id="footer-container"></div>
+
+</body>
+</html>

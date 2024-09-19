@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- SHORTCUT ICON -->
+<link rel="shortcut icon" href="/images/26_year_logo.png" />
+
+<!-- META TAGS -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+<!--FONT AWESOME-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+    href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;400;500;600;700;800;900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+
+<!--PLUGIN-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+<link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<link rel="stylesheet" href="/font.css">
+
+<link rel="stylesheet" href="adminis.css">
+<title>Administrative</title>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        fetch("/Header_folder/nav.html")
+            .then((response) => response.text())
+            .then((data) => {
+                document.getElementById("nav-container").innerHTML = data;
+                // Load the nav.js file after the HTML is loaded
+                let script = document.createElement("script");
+                script.src = "/Header_folder/nav.js";
+                document.body.appendChild(script);
+            });
+    });
+    document.addEventListener("DOMContentLoaded", function () {
+        fetch("/Footer_folder/footer.html") // Load the nav.html file
+            .then((response) => response.text()) // Get its content
+            .then((data) => {
+                document.getElementById("footer-container").innerHTML = data; // Insert into the page
+            });
+    });
+</script>
+
+<body>
+    <div id="nav-container"></div>
+
+
+    <!--HEADER-->
+    <header class="flex">
+        <article>
+            <h1 class="title big">Welcome to <br><em>ITM</em> , Gwalior</h1>
+            <p>Lilliovi: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book.</p>
+        </article>
+        <section class="flex">
+            <aside class="padding_1x">
+                <h2 class="sub_title">Chairman</h2>
+                <div class="img">
+                    <img src="./rk (1).jpg" alt="">
+                </div>
+                <h4>Mr. Rama Shankar Singh</h4>
+
+                <p>nothing gives me more happiness & satisfaction than seeing smiles on the faces of young boys & girls as they enjoy the learning process in the campus . </p>
+
+            </aside>
+            <aside class="padding_1x">
+
+                <h2 class="sub_title">Director</h2>
+                <div class="img">
+                    <img src="./_DSC0534.JPG" alt="">
+                </div>
+                <h4>Dr. Meenakshi Mazumdar</h4>
+
+                <p>With such a multifaceted outlook, ITM would soon become one of the leading technical institutes of our country.  </p>
+            </aside>
+            <aside class="padding_1x">
+                <h2 class="sub_title">Managing Director</h2>
+                <div class="img">
+                    <img src="./mD 2.jpg"
+                        alt="">
+                </div>
+                <h4>Dr. Daulat Singh Chauhan</h4>
+                <p>I welcome you to open up your ideas and make this world a much better place for you and next generations.
+                    Needless to say that ITM is the Place. "
+                    </p>
+
+            </aside>
+        </section>
+    </header>
+
+
+
+    <!--MAIN-->
+    <main>
+
+
+
+        <!--division_3-->
+        <div class="divisions division_3 padding_2x">
+            <section class="title_header">
+                <h1 class="title">Contribution Towards Society</h1>
+                <p>Replenish man have thing gathering lights yielding shall you </p>
+                <span class="bar"></span>
+            </section>
+            <section class="slider padding_0x">
+                <ul class="card logo-slider blog-slider">
+                    <!--card begining-->
+                    <li>
+                        <figure>
+                            <img src="./Screenshot (114).png" alt="" loading="lazy" />
+                        </figure>
+                        <article class="padding_1x">
+                            <strong class="tag">Dean Academics</strong>
+                            <a href="#" class="title small">Dr Satyendra Singh Chauhan</a>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of classical...</p>
+
+                        </article>
+                    </li>
+                    <!--card ends-->
+                    <!--card begining-->
+                    <li>
+                        <figure>
+                            <img src="./manoj mishra.png" alt="" loading="lazy" />
+                        </figure>
+                        <article class="padding_1x">
+                            <strong class="tag">Dean Student Welfare</strong>
+                            <a href="#" class="title small">Dr. Manoj Mishra</a>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of classical...</p>
+
+                        </article>
+                    </li>
+                    <!--card ends-->
+                    <!--card begining-->
+                    <li>
+                        <figure>
+                            <img src="./omveer.png" alt="" loading="lazy" />
+                        </figure>
+                        <article class="padding_1x">
+                            <strong class="tag">Registrar</strong>
+                            <a href="#" class="title small">Dr. Omveer Singh</a>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of classical...</p>
+
+                        </article>
+                    </li>
+                    <!--card ends-->
+                    <!--card begining-->
+                    <li>
+                        <figure>
+                            <img src="./Screenshot (114).png" alt="" loading="lazy" />
+                        </figure>
+                        <article class="padding_1x">
+                            <strong class="tag">Dean Academics</strong>
+                            <a href="#" class="title small">Dr Satyendra Singh Chauhan</a>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of classical...</p>
+
+                        </article>
+                    </li>
+                    <!--card ends-->
+                    <!--card begining-->
+                    <li>
+                        <figure>
+                            <img src="./manoj mishra.png" alt="" loading="lazy" />
+                        </figure>
+                        <article class="padding_1x">
+                            <strong class="tag">Dean Student Welfare</strong>
+                            <a href="#" class="title small">Dr. Manoj Mishra</a>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of classical...</p>
+
+                        </article>
+                    </li>
+                    <!--card ends-->
+                    <!--card begining-->
+                    <li>
+                        <figure>
+                            <img src="./omveer.png" alt="" loading="lazy" />
+                        </figure>
+                        <article class="padding_1x">
+                            <strong class="tag">Registrar</strong>
+                            <a href="#" class="title small">Dr. Omveer Singh</a>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of classical...</p>
+
+                        </article>
+                    </li>
+                    <!--card ends-->
+                    
+                </ul>
+            </section>
+        </div>
+
+        <!--division_4-->
+        <div class="divisions division_4" onmousemove="animate_balls(event)">
+            <div class="title_header">
+                <h2 class="title medium">We promise best future for your kids</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                    looking at its layout.</p>
+                <aside class="fixed_flex">
+                    <a href="#" class="btn btn_1">Explore more</a>
+
+                    <a href="javascript:void(0)">Gallery Portfolio</a>
+                </aside>
+            </div>
+            <div class="cards">
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <section class="fixed_flex">
+                    <figure class="flex_content">
+                        <img src="./_DSC1242.JPG" alt="" loading="lazy" />
+                    </figure>
+                    <figure class="flex_content">
+                        <img src="./_DSC2835.JPG" alt="" loading="lazy" />
+                    </figure>
+                    <figure class="flex_content">
+                        <img src="./_DSC2797.JPG" alt="" loading="lazy" />
+                    </figure>
+                    <figure class="flex_content">
+                        <img src="./DSC_0026.JPG" alt="" loading="lazy" />
+                    </figure>
+                </section>
+            </div>
+        </div>
+    </main>
+    
+    
+    <div id="footer-container"></div>
+    <!--FOOTER-->
+    <!--ADDITIONAL-->
+    <div class="overlay"></div>
+    <div class="cursor"></div>
+
+
+
+
+    <script src="adminis.js"></script>
+</body>
+
+</html>

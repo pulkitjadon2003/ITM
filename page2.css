@@ -1,0 +1,222 @@
+#page2{
+     height: 80vh;
+    width: 100vw;
+    position: relative;
+    background-color: antiquewhite;
+    /* background-color: #000; */
+
+    
+}
+
+#upper{
+    height: 100%;
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+}
+ .circle1 {
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    box-shadow: 0 0 50px #bed848;
+    background: linear-gradient(-25deg, #e8e7a0d2, #eef4415f);
+    animation: circle1Animate 15s infinite;
+  }
+  
+  @keyframes circle1Animate {
+    50% {
+      left: 10%;
+      top: 7%;
+      scale: 1.11;
+    }
+  }
+  
+  .circle2 {
+    position: absolute;
+    bottom: 5%;
+    left: 28%;
+    width: 13em;
+    height: 13em;
+    border-radius: 50%;
+    box-shadow: 0 0 50px #5648d8;
+    background: linear-gradient(-25deg, #5648d860, #8641f44c);
+    animation: circle2Animate 8s infinite;
+  }
+  @keyframes circle2Animate {
+    50% {
+      bottom: 6%;
+      left: 30%;
+      scale: 1.11;
+
+    }
+  }
+#upper #left{
+    height: 100%;
+    width: 40%;
+    /* background-color: antiquewhite; */
+    position: relative;
+}
+#upper #left img{
+    height: 80%;
+    width: 70%;
+    object-fit: contain;
+    object-position: center;
+    position: absolute;
+    left: 40%;
+    top: 12%;
+
+}
+#upper #right{
+    height: 100%;
+    width: 60%;
+    /* background-color: #fff; */
+    position: relative;
+    padding-left: 40px;
+   
+
+}
+
+#right .block{
+    height: 40%;
+    width: 100%;
+    position: relative;
+    /* background-color: blue; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+#right #block1{
+    /* background-color: blue; */
+    margin-top: 5%;
+}
+#right #block2{
+    /* background-color: rgb(69, 69, 141); */
+    margin-top: -1%;
+}
+#block1 .box{
+    height: 90%;
+    width: 30%;
+    /* background-color: red; */
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+    position: relative;   
+    border-radius: 15px 50px;
+}
+#block2 .box{
+    height: 90%;
+    width: 30%;
+    /* background-color: red; */
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 10%;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px 15px
+}
+
+#block1 #box2{
+    border-radius: 50px 15px;   
+}
+
+#block2 #box4{
+    border-radius: 15px 50px;
+}
+
+ #block1 .box h1{
+    font-size: 55px;
+    font-family: gilroy;
+    text-align: center;
+ }
+ #block1 .box h3{
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    top: 65%;
+ }
+ #block2 .box h1{
+    font-size: 55px;
+    font-family: gilroy;
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    /* left: 10%; */
+ }
+ #block2 .box h3{
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    top: 45%;
+ }
+
+
+
+#lower{
+    height: 35%;
+    width: 100%;
+    background-color: #3d1e7c;
+    padding-top: 1%;
+}
+#lower h1{
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    padding-bottom: 1%;
+   
+}
+#lower h1 span{
+    /* text-transform: uppercase; */
+    color: white;
+    font-weight: bolder;
+    font: gilroy;
+}
+#lower #compDiv{
+    height:75%;
+    width: 100%;
+    /* background-color: #ffffffa1; */
+    background-color: #270a5e;
+
+    padding: 1% 10%;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    
+}
+#compDiv .company{
+    height: 80%;
+    width: 15%;
+    border: 1px solid rgb(151, 150, 150);
+    margin: 0 10px;
+   padding: 5px;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+#compDiv .company img{
+    height: 90%;
+    width: 90%;
+    object-fit: contain;
+    object-position: center;
+
+
+}
+
+
+

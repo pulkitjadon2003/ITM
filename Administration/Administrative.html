@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrative Responsibilities</title>
+    <link rel="stylesheet" href="/font.css">
+    <link rel="stylesheet" href="./adminis.css">
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: gilroy;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+            overflow-x: hidden;
+        }
+        
+      
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: rebeccapurple;
+            color: white;
+        }
+        td a {
+            color: #007bff;
+            background-color: #dadada;
+            padding: 5px;
+            text-decoration: none;
+        }
+        td a:hover {
+            text-decoration: underline;
+        }
+        
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr.alt {
+    background-color: #E0F2F1;
+}
+
+    </style>
+   <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        fetch("/Header_folder/nav.html")
+          .then((response) => response.text())
+          .then((data) => {
+            document.getElementById("nav-container").innerHTML = data;
+            // Load the nav.js file after the HTML is loaded
+            let script = document.createElement("script");
+            script.src = "/Header_folder/nav.js";
+            document.body.appendChild(script);
+          });
+      });
+      document.addEventListener("DOMContentLoaded", function () {
+        fetch("/Footer_folder/footer.html") // Load the nav.html file
+          .then((response) => response.text()) // Get its content
+          .then((data) => {
+            document.getElementById("footer-container").innerHTML = data; // Insert into the page
+          });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="nav-container"></div>
+    <div id="img">
+        <img src="./dunedin-university-of.jpg" alt="">
+        <div id="nameDiv">
+            <h2>Administrative Responsibilities</h2>
+            <div id="line"></div>
+
+        </div>
+    </div>
+    <div class="container">
+              <h2>DEANS</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>S. No</th>
+                <th>Name</th>
+                <th>Responsibility</th>
+                <th>Mobile No</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Dr. Manjaree Pandit</td>
+                <td>Dean, Faculty of Engineering & Technology</td>
+                <td>9826954902</td>
+            </tr>
+            <tr class="alt">
+                <td>2</td>
+                <td>Dr. Rajeev Kansal</td>
+                <td>Dean Student Welfare</td>
+                <td>9165028102</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Administrative Responsibility</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>S. No</th>
+                <th>Name</th>
+                <th>Responsibility</th>
+                <th>Mobile No</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Dr. Pratesh Jayaswal</td>
+                <td>Registrar</td>
+                <td>9826561725</td>
+            </tr>
+            <tr class="alt">
+                <td>2</td>
+                <td>Prof. Prabhakar Sharma</td>
+                <td>Deputy Registrar</td>
+                <td>9425339330</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Heads of the Departments</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>S. No</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Mobile No</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Dr. Sanjay Tiwari</td>
+                <td>Civil Engineering</td>
+                <td>9406587811</td>
+            </tr>
+        </tbody>
+    
+        </table>
+    </div>
+
+        <div id="footer-container"></div>
+
+</body>
+</html>
+
+
+
+

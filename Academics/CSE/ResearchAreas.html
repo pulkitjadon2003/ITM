@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department of Computer Science and Engineering</title>
+
+    <link rel="stylesheet" href="academic.css">
+
+    <script src="script.js"></script>
+ 
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+    }
+    
+    .table-container {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    thead {
+        background-color: rebeccapurple;
+        color: white;    }
+    
+    thead th {
+        padding: 10px;
+        text-align: center; /* Centering text */
+        color: black;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+    tbody td {
+        padding: 20px;
+        vertical-align: top;
+        background-color: #f5f5f5;
+        text-align: center; /* Centering text */
+    }
+    
+    tbody tr:nth-child(even) td {
+        background-color: #ffffff;
+    }
+    
+    ul {
+        list-style-type: none;
+        padding:0;
+    }
+    
+    ul li {
+        font-size: 16px;
+        margin: 10px 0;
+        color: #00a7b7;
+        font-weight: bold;
+    }
+    
+    p {
+        margin: 10px 0;
+        font-size: 16px;
+        color: black;
+        text-align: center; /* Centering text */
+    }
+    
+    strong {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+</style>
+<script src="/nav-enable.js"></script>
+
+<body>
+    <div id="nav-container"></div>
+
+    <div id="img">
+        <img src="../dunedin-university-of.jpg" alt="">
+        <div id="nameDiv">
+            <h2>Department of Computer Science and Engineering</h2>
+            <div id="line"></div>
+
+        </div>
+    </div>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Department Of Computer Science and Engineering</h2>
+            <div class="menu">
+                <div class="menu-item " onclick="loadPage('about.html')">About Computer Science and Engineering</div>
+                <div class="menu-item" onclick="loadPage('programmes.html')">Programmes Offered</div>
+                <div class="menu-item" onclick="loadPage('faculty.html')">Faculty Profiles</div>
+                <div class="menu-item" onclick="loadPage('laboratories.html')">Laboratories</div>
+                <div class="menu-item" onclick="loadPage('supporting-staff.html')">Supporting Staff</div>
+                <div class="menu-item" onclick="loadPage('schemes.html')">Schemes</div>
+                <div class="menu-item" onclick="loadPage('syllabus.html')">Syllabus</div>
+                <div class="menu-item" onclick="loadPage('timetable.html')">Time Table</div>
+                <div class="menu-item" onclick="loadPage('DepartmentalCommittees.html')">Departmental Committees</div>
+                <div class="menu-item" onclick="loadPage('DepartmentEvents.html')">Departmental Events</div>
+                <div class="menu-item active" onclick="loadPage('ResearchAreas.html')">Research Areas</div>
+                <div class="menu-item" onclick="loadPage('ResearchPublication.html')">Research Pubications</div>
+                <div class="menu-item" onclick="loadPage('feedback.html')">Feedback</div>
+                <div class="menu-item" onclick="loadPage('achievements.html')">Achievement</div>     
+                <div class="menu-item" onclick="loadPage('gallery.html')">Gallery</div>
+                <div class="menu-item" onclick="loadPage('contact.html')">Contact</div>
+            </div>
+        </aside>
+        <main class="content">
+            
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Research Areas</th>
+                            <th>Faculty Involved</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>Computer Vision & Image Processing</li>
+                                    <li>Artificial Intelligence</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <p><strong style="color: red;">Dr. R.S. Jadon</strong>, Professor</p>
+                                <p><strong style="color: red;">Dr. Manish Dixit</strong>, Professor</p>
+                                <p><strong style="color: red;">Prof. Jaimal Jha</strong>, Assistant Professor</p>
+                                <p><strong style="color: red;">Dr. Parul Saxena</strong>, Assistant Professor</p>
+                                <p><strong style="color: red;">Prof. Hemlata Arya</strong>, Assistant Professor</p>
+                                <p><strong style="color: red;">Dr. Ranjeet Kumar Singh</strong>, Assistant Professor</p>
+                                <p><strong style="color: red;">Dr. Rohit Agrawal</strong>, Assistant Professor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>Data Mining</li>
+                                    <li>Sentiment Analysis</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <p><strong style="color: red;">Dr. R.K. Gupta</strong>, Professor</p>
+                                <p><strong style="color: red;">Prof. Mahesh Parmar</strong>, Assistant Professor</p>
+                                <p><strong style="color: red;">Prof. Amit Kumar Manjhvar</strong>, Assistant Professor</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </main> 
+    </div>
+    <div id="footer-container"></div>
+
+</body>
+</html>

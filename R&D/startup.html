@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StartUps And Innovation</title>
+    <link rel="stylesheet" href="/font.css">
+    <link rel="stylesheet" href="R&D.css">
+
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+main {
+    padding: 20px;
+}
+
+.image{
+    /* transform: translate(100%,0%); */
+    margin-left: 35%;
+    width: 400px;
+    background-color: red;
+
+    height: 400px;
+    border-radius: 30%;
+}
+#section2,#section1 {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    margin: 0 0 10px;
+}
+#section2 p,h3{
+    color: #000;
+}
+
+p, ul {
+    margin: 5px 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+    .container {
+            width: 90%;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: rebeccapurple;
+            color: white;
+        }
+        td a {
+            color: #007bff;
+            background-color: #dadada;
+            padding: 5px;
+            text-decoration: none;
+        }
+        td a:hover {
+            text-decoration: underline;
+        }
+.img-header {
+        color: white;
+        height: 45vh;
+        position: relative;
+        text-align: center;
+      }
+      .img-header h1 {
+        margin: 0;
+        font-size: 24px;
+        position: absolute;
+        bottom: 10%;
+        left: 10%;
+        font-size: 3vmax;
+        font-weight: 500;
+        z-index: 5;
+      }
+      .img-header img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        filter: brightness(70%);
+        background-attachment: fixed;
+      }
+    </style>
+     <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        fetch("/Header_folder/nav.html")
+          .then((response) => response.text())
+          .then((data) => {
+            document.getElementById("nav-container").innerHTML = data;
+            // Load the nav.js file after the HTML is loaded
+            let script = document.createElement("script");
+            script.src = "/Header_folder/nav.js";
+            document.body.appendChild(script);
+          });
+      });
+      document.addEventListener("DOMContentLoaded", function () {
+        fetch("/Footer_folder/footer.html") // Load the nav.html file
+          .then((response) => response.text()) // Get its content
+          .then((data) => {
+            document.getElementById("footer-container").innerHTML = data; // Insert into the page
+          });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="nav-container"></div>
+    <div id="img">
+        <img src="./dunedin-university-of.jpg" alt="">
+        <div id="nameDiv">
+            <h2>StartUp / Innovation / Incubation Cell</h2>
+            <div id="line"></div>
+
+        </div>
+    </div>
+
+     <main>
+       
+        <div class="image">
+            <img src="" alt="startup-image">
+        </div>
+
+         <div>
+            <p><b>Mission:</b>To create a self sustainable platform for all the stakeholders in and around MITS willing to unleash their potential as idea progenitor and executor.</p>
+            <p><b>Vision:</b>To create a self sustainable platform for all the stakeholders in and around MITS willing to unleash their potential as idea progenitor and executor.</p>
+
+        </div>
+        <section id="section1">
+            <h3>Objectives</h3>
+            <ul>
+                <li>Foster a spirit of entrepreneurship and innovation among the students and faculty.</li>
+                <li>Nurture start-ups at an early stage and help them overcome obstacles.</li>
+                <li>Promote the culture of Product Development, Innovation, Entrepreneurship, Business Development, and Start-up.</li>
+                <li>Offer value-added and incremental services such as financial, technical, legal, IPR, and mentoring to students, faculty, and staff.</li>
+                <li>Provide resources and networking opportunities to support MITS Gwalior young entrepreneurs on the path to commercialization.</li>
+                <li>Move ideas from the institute laboratory to the market.</li>
+            </ul>
+        </section>
+        <section id="section2">
+            <h3>Start-Up Cell Student Council</h3>
+            <p>The Start-Up Cell Student Council has worked remarkably in inspiring, developing, and supporting entrepreneurial ideas and entrepreneurs inside and around MITS. We have seen potential changes in creating a good ecosystem coming out of MITS Gwalior.</p>
+            <br>
+            <p>Your journey to explore what it takes to be an entrepreneur starts here. An investment in the right direction now might land you places in the future. Now is the time to let out the entrepreneur inside you and manifest your creativity, innovativeness, and uniqueness. We invite all enthusiastic students to work with us and experience what it takes to run a Start-Up Cell. Apart from valuable Certificates and Letters of Recommendation, you gain extensive knowledge on entrepreneurship, leadership, marketing, content writing, web and app development, event management, etc., by working on various events, projects, and tasks of the Start-Up Cell.</p>
+        </section>
+    </main>
+     <div class="container">
+        <h2></h2>
+        <table>
+            <tr>
+                <th width="5%">S.No.</th>
+                <th width="20%">Title</th>
+                
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><a href="#" download="path to file">Anti-ragging Committee</a></td>
+               
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><a href="#" download="path to file">Proctorial Board</a></td>
+               
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><a href="#" download="path to file">Anti Ragging Duty</a></td>
+               
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><a href="#" download="path to file">Minutes of Meeting</a></td>
+               
+            </tr>
+           
+        </table>
+    </div>
+        <div id="footer-container"></div>
+
+</body>
+</html>

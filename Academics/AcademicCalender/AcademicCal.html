@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accredation</title>
+    <link rel="stylesheet" href="/font.css">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: gilroy;
+            scroll-behavior: smooth;
+        }
+
+        html {
+            height: 100%;
+            width: 100%;
+        }
+
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            height: 100%;
+            width: 100%;
+            overflow-x: hidden;
+        }
+
+        #main {
+            height: 100vh;
+    width: 100vw;
+    position: relative;
+
+        }
+        #img {
+            height: 40vh;
+            width: 100vw;
+            position: relative;
+          }
+          
+          #img img {
+            height: 100%;
+            width: 100%;
+            object-fit: fill;
+            object-position: center;
+          }
+          
+          #img #nameDiv {
+            height: 9vh;
+            width: fit-content;
+            background-color: #d9d9d9;
+            position: relative;
+            top: -30%;
+            left: 5%;
+          
+          
+          }
+          
+          #img #nameDiv #line {
+            height: 10%;
+            width: 80%;
+            background-color: rebeccapurple;
+            position: absolute;
+            top: 0;
+          }
+          
+          #nameDiv h2 {
+            padding-top: 5%;
+            font-size: 40px;
+            text-align: center;
+            color: black;
+            height: 100%;
+            width: 100%;
+            padding: 10px;
+          }
+        #cal{
+            height: 70%;
+            width: 70%;
+            background-color: white;
+            margin-left: 15%;
+           margin-top: 2%;
+           
+           padding: 30px;
+           position: relative;
+        }
+
+    
+
+
+       
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-top: 5%;
+        }
+
+        .container h2 {
+            margin-top: 30px;
+            background-color: rebeccapurple;
+            padding: 20px;
+            color: white;
+            text-align: center;
+
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #ddd;
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: rebeccapurple;
+            color: white;
+        }
+
+        td a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        td a:hover {
+            text-decoration: underline;
+        }
+        object{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <script src="/nav-enable.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <div id="nav-container"></div>
+
+        
+        <div id="img">
+            <img src="../dunedin-university-of.jpg" alt="">
+            <div id="nameDiv">
+                <h2>Academic Calender</h2>
+                <div id="line"></div>
+    
+            </div>
+        </div>
+
+    <div id="cal">
+        <!-- <embed type="application/x-google-chrome-pdf" src="chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/44a53639-f3c6-46c4-a0d5-f6bc73d3c268" original-url="https://web.mitsgwalior.in/images/mainmenu/Academics/1st%20Year%20Academic%20Calendar%202024-25%20Session.pdf" background-color="4283586137" javascript="allow"> -->
+            <h3>Acadimic Calendar</h3>
+            <object class="pdf" 
+            data=
+            "https://web.mitsgwalior.in/images/mainmenu/Academics/1st%20Year%20Academic%20Calendar%202024-25%20Session.pdf"
+            width="800"
+            height="300">
+    </object>
+    </div>
+
+
+
+        <div class="container">
+            <table>
+                <tr>
+                    <th>Title</th>
+                    <th>Downloads</th>
+                   
+                </tr>
+
+                <tr>
+                    <td>Academic Calendar || July 2024 to June 2025 || Second to Final Year UG and Second Year PG</td>
+                    <td><a href="#" download="path to file">Download File</a></td>
+                   
+                </tr>
+                <tr>
+                    <td>Academic Calendar for Session 2023-2024 (All UG/PG First Year Classes)	</td>
+                    <td><a href="#" download="path to file">Download File</a></td>
+                   
+                </tr>
+                <tr>
+                    <td>Academic Calendar July 2023 to June 2024 (II to Final Year UG and PG)	 </td>
+                    <td><a href="#" download="path to file">Download File</a></td>
+                    
+                </tr>
+                <tr>
+                    <td>Academic Calendar for Session 2022-2023 (All UG/PG First Year Classes)	</td>
+                    <td><a href="#" download="path to file">Download File</a></td>
+                   
+                </tr>
+                <tr>
+                    <td>Academic Calendar July 2022 to June 2023 (All B.Tech/B.Arch. II to Final year and PG II Year)	 </td>
+                    <td><a href="#" download="path to file">Download File</a></td>
+                    
+                </tr>
+            </table>
+
+        </div>
+
+        <div id="footer-container"></div>
+
+    </div>
+</body>
+
+</html>

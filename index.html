@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link rel="shortcut icon" href="/images/26_year_logo.png" />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITM_GWALIOR</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous"
+        defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="../Header_folder/nav.css"> -->
+    <link rel="stylesheet" href="/font.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="page2.css">
+    <link rel="stylesheet" href="page3.css">
+    <style>
+        #slider {
+            height: 18vh;
+            width: 100%;
+            padding: 1vh 3vw;
+            position: absolute;
+            bottom: 0;
+            right: -3%;
+            /* background-color: #472888; */
+        }
+
+        #slider img {
+            height: 12vh;
+        }
+
+        .partners {
+            /* background-color: red; */
+            width: fit-content;
+            margin-bottom: 2%;
+        }
+
+        .partners h2 {
+            font-size: 2.5vw;
+            font-weight: 300;
+
+        }
+
+        .partners h2 span {
+            color: #472888;
+            /* background-color: antiquewhite; */
+            font-weight: 550;
+        }
+
+        #slider-partner {
+            height: 50vh;
+            width: auto;
+            padding: 2vh 5vw;
+            margin-top: 2%;
+            /* background-color: aqua; */
+            /* border-top: 1px solid black; */
+        }
+
+        #partner-swipe {
+            margin-left: 4vw;
+
+        }
+
+        .coporate img , .training img{
+            height: 70% !important;
+            width: 90% !important;
+            object-fit: cover;
+            /* background-color: red; */
+            margin: 7.5% 5%;
+        }
+
+        .coporate,.training {
+            /* background-color: red; */
+            /* padding: 18px 0; */
+            width: 14vw;
+            /* height: 10vh; */
+            border: 1px solid black;
+            /* outline-offset: 4px; */
+
+        }
+
+        #slider-partner .swiffy-slider {
+            /* background-color: rgb(255, 255, 255); */
+            padding: 10px 15px;
+            border-radius: 10px;
+        }
+    </style>
+    <script>
+       document.addEventListener('DOMContentLoaded', function () {
+            fetch('/Header_folder/nav.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('nav-container').innerHTML = data;
+                    // Load the nav.js file after the HTML is loaded
+                    let script = document.createElement('script');
+                    script.src = '/Header_folder/nav.js';
+                    document.body.appendChild(script);
+                });
+        });
+        document.addEventListener("DOMContentLoaded", function () {
+            fetch('/Footer_folder/footer.html')  // Load the nav.html file
+                .then(response => response.text()) // Get its content
+                .then(data => {
+                    document.getElementById('footer-container').innerHTML = data; // Insert into the page
+                });
+        });
+
+    </script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="nav-container"></div>
+
+        <div id="front-page">
+            <video src="/Videos/Landing-Page-video.mp4" alt="Video not found" autoplay muted loop></video>
+           <div id="shadow"></div>
+            <div id="slider">
+
+                <div class="swiffy-slider slider-item-show6 slider-nav-outside slider-nav-light slider-nav-sm slider-nav-visible slider-nav-page slider-item-snapstart slider-nav-autoplay slider-nav-autopause slider-item-ratio slider-item-ratio-contain slider-item-ratio-32x28 bg-white shadow-lg py-3 py-lg-4"
+                    data-slider-nav-autoplay-interval="3000">
+                    <div class="slider-container">
+                        <div><img src="./images/AICTE-Logo-250x250-1.webp" alt="..."></div>
+                        <div><img src="./images/Jiwaji University.webp" alt="..."></div>
+                        <div><img src="./images/csi-logo.png" alt="..."></div>
+                        <div><img src="./images/IEEE.png" alt="..."></div>
+                        <div><img src="./images/Mp govt.png" alt="..."></div>
+                        <div><img src="./images/National_Board_of_Accreditation.svg.png" alt="..."></div>
+                        <div><img src="./images/NCC.png" alt="..."></div>
+                        <div><img src="./images/NSS.png" alt="..."></div>
+                        <div><img src="./images/RGPV.png" alt="..."></div>
+
+
+
+                    </div>
+                    <button type="button" class="slider-nav" aria-label="Go left"></button>
+                    <button type="button" class="slider-nav slider-nav-next" aria-label="Go left"></button>
+                </div>
+
+
+            </div>
+
+
+        </div>
+        <div id="page2">
+
+            <div id="upper">
+                <div class="circle1"></div>
+                <div class="circle2"></div>
+                <div id="left">
+                    <img src="./images/banner-1.png" alt="">
+                </div>
+                <div id="right">
+                    <div id="block1" class="block">
+                        <div id="box1" class="box">
+                            <h1>800+</h1>
+                            <h3>COMPANIES</h3>
+
+                            <!-- <i class="ri-graduation-cap-line"></i>        -->
+                        </div>
+                        <div id="box2" class="box">
+                            <h1>16000+</h1>
+                            <h3>PLACEMENTS</h3>
+                        </div>
+                    </div>
+                    <div id="block2" class="block">
+                        <div id="box3" class="box">
+                            <h1>45 <span>LPA</span></h1>
+                            <h3>HIGHEST PACKAGE</h3>
+                        </div>
+                        <div id="box4" class="box">
+                            <h1>5 <span>LPA</span></h1>
+                            <h3>AVERAGE PACKAGE</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div id="page3">
+            <div id="heading">
+                <p>Explore <span>Our Programs</span></p>
+                <!-- <div id="navigations">
+                <i class="ri-arrow-left-s-line"></i>
+                <i class="ri-arrow-right-s-line"></i>
+
+            </div> -->
+
+            </div>
+            <div id="content-slide">
+
+                <div class="content" id="0">
+                    <div class="info">
+
+                        <img src="https://res.cloudinary.com/highereducation/images/f_auto,q_auto/v1662131160/ComputerScience.org/GettyImages-533765037_66590e6d/GettyImages-533765037_66590e6d.jpg?_i=AA"
+                            alt="">
+                        <div id="text" class="texts">
+                            <h2>
+                                Bachelor of Technology <br>
+                                (B.Tech)
+                            </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos natus
+                                numquam ullam qui aut.</p>
+                            <h3>Programs</h3>
+                            <ul>
+                                <li>Computer Science Engineering</li>
+                                <li>Computer Science Engineering (AI/ML)</li>
+                                <li>Computer Science Engineering (IOT)</li>
+                                <li>Computer Science Engineering (DS)</li>
+                                <li>Electronics & Comm. Engineering</li>
+                                <li>Mechanical Engineering</li>
+                                <li>Civil Engineering</li>
+                                <li>Information Technology</li>
+                                <li>Chemical Engineering</li>
+                            </ul>
+                        </div>
+                        <div id="course-heading">
+                            <h2>Bachelor of Technology</h2>
+                            <p>Courses <img src="./images/triangle-point-bullet.png" alt=""></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="content" id="1">
+                    <div class="info">
+
+                        <img src="https://res.cloudinary.com/highereducation/images/f_auto,q_auto/v1662131160/ComputerScience.org/GettyImages-533765037_66590e6d/GettyImages-533765037_66590e6d.jpg?_i=AA"
+                            alt="">
+                        <div id="text" class="texts">
+                            <h2>Post Graduate</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos natus
+                                numquam ullam qui aut.</p>
+                            <h3>Programs</h3>
+                            <ul>
+                                <li>M.Tech. (CS)</li>
+                                <li>M.Tech. (VLSI)</li>
+                                <li>MBA (M, F, HR)</li>
+                                <li>MCA</li>
+                            </ul>
+                        </div>
+                        <div id="course-heading">
+                            <h2>Post Graduate</h2>
+                            <p>Courses <img src="./images/triangle-point-bullet.png" alt=""></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div id="page4">
+            <div id="heading">
+                <p>Special <span>Features</span></p>
+            </div>
+
+
+
+            <div id="special-features">
+                <div
+                    class="swiffy-slider slider-item-show3 slider-item-reveal slider-nav-dark slider-nav-outside-expand">
+                    <ul class="slider-container py-4" id="slider2">
+                        <li>
+                            <div class="card shadow h-100">
+                                <div class="ratio ratio-1x1">
+                                    <img src="https://img.freepik.com/free-photo/people-practicing-social-integration-workspace_23-2149405380.jpg"
+                                        class="card-img-top" loading="lazy" alt="...">
+                                </div>
+                                <div id="details" class="card-body d-flex flex-column flex-md-row">
+                                    <div id="text">
+                                        <h3>Incubation <div id="underline"></div>
+                                        </h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptas rem
+                                            est voluptates nulla aliquid, consequuntur nisi quia minus eum!</p>
+                                        <span>Know More <img src="./images/triangle-point-bullet.png" alt=""></span>
+                                    </div>
+                                </div>
+                                <div id="feature-heading"><h2>Incubation</h2></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="card shadow h-100">
+                                <div class="ratio ratio-1x1">
+                                    <img src="https://img.freepik.com/free-photo/people-practicing-social-integration-workspace_23-2149405380.jpg"
+                                        class="card-img-top" loading="lazy" alt="...">
+                                </div>
+                                <div id="details" class="card-body d-flex flex-column flex-md-row">
+                                    <div id="text">
+                                        <h3>Incubation <div id="underline"></div>
+                                        </h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptas rem
+                                            est voluptates nulla aliquid, consequuntur nisi quia minus eum!</p>
+                                        <span>Know More <img src="./images/triangle-point-bullet.png" alt=""></span>
+                                    </div>
+                                </div>
+                                <div id="feature-heading"><h2>Incubation</h2></div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="card shadow h-100">
+                                <div class="ratio ratio-1x1">
+                                    <img src="https://img.freepik.com/free-photo/people-practicing-social-integration-workspace_23-2149405380.jpg"
+                                        class="card-img-top" loading="lazy" alt="...">
+                                </div>
+                                <div id="details" class="card-body d-flex flex-column flex-md-row">
+                                    <div id="text">
+                                        <h3>Incubation <div id="underline"></div>
+                                        </h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptas rem
+                                            est voluptates nulla aliquid, consequuntur nisi quia minus eum!</p>
+                                        <span>Know More <img src="./images/triangle-point-bullet.png" alt=""></span>
+                                    </div>
+                                </div>
+                            </div>
+                                <div id="feature-heading"><h2>Incubation</h2></div>
+
+                        </li>
+
+
+                        <li>
+                            <div class="card shadow h-100">
+                                <div class="ratio ratio-1x1">
+                                    <img src="https://img.freepik.com/free-photo/people-practicing-social-integration-workspace_23-2149405380.jpg"
+                                        class="card-img-top" loading="lazy" alt="...">
+                                </div>
+                                <div id="details" class="card-body d-flex flex-column flex-md-row">
+                                    <div id="text">
+                                        <h3>Incubation <div id="underline"></div>
+                                        </h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptas rem
+                                            est voluptates nulla aliquid, consequuntur nisi quia minus eum!</p>
+                                        <span>Know More <img src="./images/triangle-point-bullet.png" alt=""></span>
+                                    </div>
+                                </div>
+                            </div>
+                                <div id="feature-heading"><h2>Incubation</h2></div>
+
+                        </li>
+
+
+                        <li>
+                            <div class="card shadow h-100">
+                                <div class="ratio ratio-1x1">
+                                    <img src="https://img.freepik.com/free-photo/people-practicing-social-integration-workspace_23-2149405380.jpg"
+                                        class="card-img-top" loading="lazy" alt="...">
+                                </div>
+                                <div id="details" class="card-body d-flex flex-column flex-md-row">
+                                    <div id="text">
+                                        <h3>Incubation <div id="underline"></div>
+                                        </h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptas rem
+                                            est voluptates nulla aliquid, consequuntur nisi quia minus eum!</p>
+                                        <span>Know More <img src="./images/triangle-point-bullet.png" alt=""></span>
+                                    </div>
+                                </div>
+                            </div>
+                                <div id="feature-heading"><h2>Incubation</h2></div>
+
+                        </li>
+
+                        <li>
+                            <div class="card shadow h-100">
+                                <div class="ratio ratio-1x1">
+                                    <img src="https://img.freepik.com/free-photo/people-practicing-social-integration-workspace_23-2149405380.jpg"
+                                        class="card-img-top" loading="lazy" alt="...">
+                                </div>
+                                <div id="details" class="card-body d-flex flex-column flex-md-row">
+                                    <div id="text">
+                                        <h3>Incubation <div id="underline"></div>
+                                        </h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptas rem
+                                            est voluptates nulla aliquid, consequuntur nisi quia minus eum!</p>
+                                        <span>Know More <img src="./images/triangle-point-bullet.png" alt=""></span>
+                                    </div>
+                                </div>
+                            </div>
+                                <div id="feature-heading"><h2>Incubation</h2></div>
+
+                        </li>
+
+                        <li>
+                            <div class="card shadow h-100">
+                                <div class="ratio ratio-1x1">
+                                    <img src="https://img.freepik.com/free-photo/people-practicing-social-integration-workspace_23-2149405380.jpg"
+                                        class="card-img-top" loading="lazy" alt="...">
+                                </div>
+                                <div id="details" class="card-body d-flex flex-column flex-md-row">
+                                    <div id="text">
+                                        <h3>Incubation <div id="underline"></div>
+                                        </h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptas rem
+                                            est voluptates nulla aliquid, consequuntur nisi quia minus eum!</p>
+                                        <span>Know More <img src="./images/triangle-point-bullet.png" alt=""></span>
+                                    </div>
+                                </div>
+                            </div>
+                                <div id="feature-heading"><h2>Incubation</h2></div>
+
+                        </li>
+
+                        <li>
+                            <div class="card shadow h-100">
+                                <div class="ratio ratio-1x1">
+                                    <img src="https://img.freepik.com/free-photo/people-practicing-social-integration-workspace_23-2149405380.jpg"
+                                        class="card-img-top" loading="lazy" alt="...">
+                                </div>
+                                <div id="details" class="card-body d-flex flex-column flex-md-row">
+                                    <div id="text">
+                                        <h3>Incubation <div id="underline"></div>
+                                        </h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptas rem
+                                            est voluptates nulla aliquid, consequuntur nisi quia minus eum!</p>
+                                        <span>Know More <img src="./images/triangle-point-bullet.png" alt=""></span>
+                                    </div>
+                                </div>
+                            </div>
+                                <div id="feature-heading"><h2>Incubation</h2></div>
+
+                        </li>
+
+                    </ul>
+
+                    <button type="button" class="slider-nav" aria-label="Go to previous"></button>
+                    <button type="button" class="slider-nav slider-nav-next" aria-label="Go to next"></button>
+                </div>
+            </div>
+        </div>
+        <div id="slider-partner">
+            <div class="partners">
+                <h2>Training <span>Partners</span></h2>
+            </div>
+            <div id="partner-swipe"
+                class="swiffy-slider slider-item-show5 slider-nav-outside slider-nav-dark slider-nav-sm slider-nav-visible slider-nav-page slider-item-snapstart slider-nav-autoplay slider-nav-autopause slider-item-ratio slider-item-ratio-contain slider-item-ratio-32x28 bg-white shadow-lg py-3 py-lg-4"
+                data-slider-nav-autoplay-interval="3000">
+                <div class="slider-container">
+                    <div class="training"><img src="/images/TrainingLogo/Microsoft Acadamy logo.png" alt="..."></div>
+                    <div class="training"><img src="/images/TrainingLogo/awsaclogo.png" alt="..."></div>
+                    <div class="training"><img src="/images/TrainingLogo/Bajaj Finserv.png" alt="..."></div>
+                    <div class="training"><img src="/images/TrainingLogo/Certiport.png" alt="..."></div>
+                    <div class="training"><img src="/images/TrainingLogo/MentorKart.png" alt="..."></div>
+                    <div class="training"><img src="/images/TrainingLogo/xtrude.jpeg" alt="..."></div>
+                    <div class="training"><img src="/images/TrainingLogo/IndiaBlockchainAlliance.png" alt="..."></div>
+                    <div class="training"><img src="/images/TrainingLogo/Skill Academy.png" alt="..."></div>
+                </div>
+                <button type="button" class="slider-nav" aria-label="Go left"></button>
+         <button type="button" class="slider-nav slider-nav-next" aria-label="Go left"></button>
+            </div>
+
+
+        </div>
+
+
+
+        <div id="page5">
+            <div id="heading">
+                <p>Our <span>Infrastructure</span></p>
+            </div>
+            <div class="page5-slider">
+                <div class="page5-slides">
+                    <div class="page5-slide">
+                        <div class="page5-text">
+                            <div class="inner-text">
+                                <p>Text for Slide 1</p>
+                            </div>
+                        </div>
+                        <img src="/CollegeImages/DSC_2286.JPG" alt="Image 1">
+                    </div>
+                    <div class="page5-slide">
+                        <img src="/CollegeImages/DSC_2295.JPG" alt="Image 2">
+                        <div class="page5-text">
+                            <div class="inner-text">
+                               <p>Text for Slide 2</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page5-slide">
+                        <div class="page5-text3">
+                            <p>Text for Slide 3</p>
+                            <img id="page5-img3" src="/CollegeImages/DSC_2298.JPG" alt="Image 3">
+                        </div>
+
+                    </div>
+                    <div class="page5-slide">
+                        <div class="page5-text">
+                            <div class="inner-text">
+                                <p>Text for Slide 4</p>
+                            </div>
+                        </div>
+                        <img src="/CollegeImages/DSC_2353.JPG" alt="Image 1">
+                    </div>
+                    <div class="page5-slide">
+                        <img src="/CollegeImages/DSC_2286.JPG" alt="Image 2">
+                        <div class="page5-text">
+                            <div class="inner-text">
+                                <p>Text for Slide 5</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page5-slide">
+                        <div class="page5-text3">
+                            <p>Text for Slide 6</p>
+                            <img id="page5-img3" src="/CollegeImages/DSC_2295.JPG" alt="Image 3">
+                        </div>
+
+                    </div>
+                </div>
+                <button class="prev" onclick="changeSlide(-1)"><i class="fa-solid fa-arrow-left"></i></i></button>
+                <button class="next" onclick="changeSlide(1)"><i class="fa-solid fa-arrow-right"></i></i></button>
+            </div>
+
+        </div>
+        <div id="slider-partner">
+            <div class="partners">
+                <h2>Coporate <span>Partners</span></h2>
+            </div>
+            <div id="partner-swipe"
+                class="swiffy-slider slider-item-show5 slider-nav-outside slider-nav-dark slider-nav-sm slider-nav-visible slider-nav-page slider-item-snapstart slider-nav-autoplay slider-nav-autopause slider-item-ratio slider-item-ratio-contain slider-item-ratio-32x28 bg-white shadow-lg py-3 py-lg-4"
+                data-slider-nav-autoplay-interval="3000"
+                style="padding: 0 12px;">
+                <div class="slider-container">
+                    <div class="coporate"><img src="./images/AICTE-Logo-250x250-1.webp" alt="..."></div>
+                    <div class="coporate"><img src="./images/Jiwaji University.webp" alt="..."></div>
+                    <div class="coporate"><img src="./images/csi-logo.png" alt="..."></div>
+                    <div class="coporate"><img src="./images/IEEE.png" alt="..."></div>
+                    <div class="coporate"><img src="./images/Mp govt.png" alt="..."></div>
+                    <div class="coporate"><img src="./images/National_Board_of_Accreditation.svg.png" alt="..."></div>
+                    <div class="coporate"><img src="./images/NCC.png" alt="..."></div>
+                    <div class="coporate"><img src="./images/NSS.png" alt="..."></div>
+                    <div class="coporate"><img src="./images/RGPV.png" alt="..."></div>
+
+                </div>
+                <button type="button" class="slider-nav" aria-label="Go left"></button>
+         <button type="button" class="slider-nav slider-nav-next" aria-label="Go left"></button>
+            </div>
+
+
+        </div>
+
+
+        <div id="footer-container"></div>
+
+
+    </div>
+
+</body>
+<script>
+    let currentSlideNo = 0;
+
+    function changeSlide(direction) {
+        const slides = document.querySelector('.page5-slides');
+        const totalSlides = slides.children.length;
+        currentSlideNo = (currentSlideNo + direction + totalSlides) % totalSlides;
+        slides.style.transform = `translateX(-${currentSlideNo * 100}%)`;
+    }
+
+    setInterval(() => {
+        changeSlide(1);
+    }, 4000);
+</script>
+
+<script src="index.js"></script>
+
+
+</html>

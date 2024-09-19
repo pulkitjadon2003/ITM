@@ -1,0 +1,322 @@
+
+#page3{
+    height: 95vh;
+    width: 100vw;
+    background-color: #472888;
+    padding-left: 5vw ;
+    padding-top: 3vw ;
+
+}
+
+#page3 #heading p{
+    color: white;
+    font-weight: 300;
+    font-size: 3vw;
+    position: relative;
+}
+
+#page3 #heading p span{
+    font-weight: 550;
+    
+
+}
+
+#page3 #heading p::after{
+    content: attr(div);
+    height: 1px;
+    width: 50%;
+    background-color: grey;
+    position: absolute;
+    right: 15%;
+    top: 50%;
+}
+#page3>#content-slide{
+    height: 80vh;
+    min-width: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    padding-left: 6vw;
+    
+}
+#page3>#content-slide::-webkit-scrollbar{
+    display: none;
+}
+#page3 #content-slide .content{
+    height: auto;
+    width: auto;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 2vw;
+}
+
+#page3 #content-slide .content .info{
+    height: 62vh;
+    width: fit-content;
+    background-color: #26095dbb;
+    /* margin-left: 2vw; */
+    display: flex;
+    align-items: center;
+    padding: .5vw 2vw;
+    padding-right: 3vw;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) .4s;
+    position: relative;
+   
+}
+
+
+#page3 #content-slide .content img{
+    height: 50vh;
+    width: 18vw;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#page3 #content-slide .content:hover{
+    background-color: #ffffff67;
+}
+
+#page3 #content-slide .content:hover .texts{
+    width: 26vw;
+    opacity: 1;
+    padding: 0 3vw;
+    overflow-x: hidden;
+}
+
+#page3 #content-slide .content:hover #course-heading{
+    opacity: 0;
+}
+
+
+#page3 #content-slide .content .texts{
+    /* background-color: red; */
+    height: 100%;
+    padding: 0;
+    color: white;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) .4s;
+    transform-origin: 0 50%;
+    overflow-y: hidden;
+    width: 0;
+    opacity: 0;
+    
+}
+
+#page3 #content-slide .content .texts::-webkit-scrollbar{
+    display: none;
+}
+
+#page3 #content-slide .content .texts h2{
+    margin-left: 1vw;
+    margin-bottom: 2vh;
+    font-size: 1.7vmax;
+    width: 100%;
+}
+
+
+#page3 #content-slide .content #course-heading{
+    width: 50vh;
+    position: absolute;
+    right: 5px;
+    rotate: -90deg;
+    transform-origin: 100% 100%;
+    top: 0;
+    color: white;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) .4s;
+    display: flex;
+    align-items: center;
+    /* background-color: #fff; */
+}
+
+
+#page3 #content-slide .content #course-heading h2{
+    font-size: 20px;
+}
+
+#page3 #content-slide .content #course-heading p{
+    position: absolute;
+    right: -1vw;
+    display: flex;
+    align-items: center;
+
+}
+
+#page3 #content-slide .content #course-heading p img{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    bottom: 0;
+  
+}
+
+#page3 #content-slide .content .texts p{
+    margin-bottom: 2vh;
+    white-space: wrap;
+    width: 26vw;
+
+}
+
+#page3 #content-slide .content .texts h3{
+    margin-bottom: 2vh;
+    font-size: 1.3vmax;
+    color: gold;
+}
+
+#page3 #content-slide .content .texts ul{
+    list-style-image: url('./images/arrowhead-bullet\ \(4\).png');
+    
+}
+#navigations{
+    position: absolute;
+    right: 3.5vw;
+    top: 3.5vw;
+}
+#navigations i{
+    font-size: 3vw;
+    color: grey;
+    border: 3px solid grey;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+
+#navigations i:hover{
+    color: white;
+    border: 3px solid white;
+}
+
+
+#page4{
+    height: 95vh;
+    width: 100vw;
+    background-color: white;
+    padding-left: 5vw ;
+    padding-top: 14vh ;
+}
+
+#page4 #heading p{
+    color: black;
+    font-weight: 300;
+    font-size: 2.8vw;
+    position: relative;
+    margin-bottom: 5vh;
+}
+
+#page4 #heading p span{
+    font-weight: 550;
+    color: #472888;
+}
+/* Slider CSS */
+
+#page4 #special-features{
+    height: 60vh;
+    width: 90vw;
+    position: relative;
+    
+}
+
+#page4 #special-features ul li div .ratio{
+    position: relative;
+}
+#page4 #special-features ul li div .ratio img{
+    height: 28vmax;
+    width: 24vmax;
+    object-fit: cover;
+    filter: brightness(100%) blur(0);
+    transition: all ease .5s;
+    cursor: pointer;
+    
+    
+    
+}
+#page4 #special-features ul li #details {
+    cursor: pointer;
+    position: absolute;
+    color: white;
+    bottom: 12%;
+    width: 90%;
+    height: 70%;
+    padding: 2vw ;
+    opacity: 0;
+    transition: all ease .4s;
+    z-index: 1;
+    
+}
+
+#page4 #special-features ul li:hover #details{
+    
+    opacity: 1;
+}
+
+#page4 #special-features ul li:hover #details h3 #underline{
+    
+    /* transform: scaleX(1); */
+    width: 100%;
+    
+    
+    
+}
+#page4 #special-features ul li:hover .ratio img{
+    filter: brightness(50%) blur(2px);
+    
+}
+
+#page4 #special-features ul li #details p{
+    width: 90%; 
+}
+#page4 #special-features ul li #details h3{
+    display: inline-block;
+    position: relative;
+    margin-bottom: 4vh;
+}
+#page4 #special-features ul li #details h3 #underline{
+    position: absolute;
+    height: 2px;
+    width: 0;
+    background-color:#FEFF4B;
+    /* transform: scaleX(0); */
+    transform-origin: 0 0;
+    transition-delay: .5s;
+    transition: all ease-out .4s;
+    overflow-y: hidden;
+
+}
+
+#page4 #special-features ul li #details span{
+    width: 80%;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+
+#page4 #special-features ul li #feature-heading{
+    width: 24vmax;
+    background:linear-gradient(transparent,rgba(0, 0, 0, 0.8));
+    color: white;
+    height: 30%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all ease-in-out .4s;
+}
+
+
+#page4 #special-features ul li #feature-heading h2{
+    padding-left:1vw ;
+    position: absolute;
+    bottom:5vh;
+    opacity: 1;
+    transition: all ease-in-out .4s;
+
+}
+
+#page4 #special-features ul li:hover  #feature-heading h2{
+    opacity: 0;
+}
+
+#page4 #special-features ul li:hover  #feature-heading{
+    height: 100%;
+    opacity: .8;
+
+}
