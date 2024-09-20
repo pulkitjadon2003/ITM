@@ -44,25 +44,19 @@
 
 
         }
-        #section1 #directorImg{
-            margin-top: 1%;
-            height: 35%;
-            width: 25%;
-            position: absolute;
-            right:8%;
+ 
+         #adminImg{
+            height: 35vh;
+            width: 25vh;
             border-radius: 5px;
+            object-fit: cover;
+            object-position: center;
         }
-         #chairmanImg{
-            height: 65%;
-            width: 15%;
-            position: absolute;
-            right:8%;
-            border-radius: 5px;
+        .speech{
+            display: flex;
         }
-
-
-        #section2,
         #section1 {
+            min-height: 30vh;
             background-color: white;
             margin: 20px 0;
             padding: 20px 40px;
@@ -90,9 +84,6 @@
 
         #section1 h5 {
             font-size: 15px;
-            max-width: 90%;
-            text-align: justify;
-            margin-left: 5%;
         }
 
         #section2 p,
@@ -133,41 +124,61 @@
         <div id="content">
             <section id="section1">
                 <h3>Chairman's Message</h3>
-                <img id="chairmanImg" src="./rk (1).jpg" alt="">
-                <p style="width: 70%;">"... nothing gives me more happiness & satisfaction than seeing smiles on the faces of young boys &
-                    girls as they enjoy the learning process in the campus, make life long friends, work hard to cope
-                    with the challenges of their curricular & co-curricular schedules and indulge with vigour in
-                    extracurricular activities, find time to party, groom themselves as fine Ladies & Gentlemen
-                    sensitive to global arts & culture, ready to plunge into their chosen professions and finally work
-                    overtime to care for their immediate & Global family and see that Mother Earth and all its
-                    inhabitants are saved from catastrophic human interventions. I do believe of these young people
-                    becoming ethically right, successful & enjoy their lives to the fullest..."
-                </p>
+                <div class="speech">
+                    <div class="name">
+                        <img id="adminImg" src="/images/RamaShankar.png" alt="">
+                        <h5>Dr. Ramashankar Singh <br>
+                            Founder Chancellor and Chairman, SLS Trust
+                        </h5>
+                    </div>
+                    <p>"... nothing gives me more happiness & satisfaction than seeing smiles on the faces of young boys &
+                        girls as they enjoy the learning process in the campus, make life long friends, work hard to cope
+                        with the challenges of their curricular & co-curricular schedules and indulge with vigour in
+                        extracurricular activities, find time to party, groom themselves as fine Ladies & Gentlemen
+                        sensitive to global arts & culture, ready to plunge into their chosen professions and finally work
+                        overtime to care for their immediate & Global family and see that Mother Earth and all its
+                        inhabitants are saved from catastrophic human interventions. I do believe of these young people
+                        becoming ethically right, successful & enjoy their lives to the fullest..."
+                    </p>
+                </div>
             </section>
             <section id="section1">
                 <h3>Managing Director's Message </h3>
-                <img style="width: 25%;height:50%;border-radius:5px;position:absolute;right:8%"  src="./mD 2.jpg" alt="">
-                <p style="width: 62%;">
-                    "Past few decades have seen the use of the word “innovation” more than ever before for the simple
-                    reason that the solutions provided were derived by applying older techniques and that too
-                    traditionally and therefore newer challenges and problems could not be addressed in sustainable
-                    manner. The sudden economic recession of recent times faced by so many countries is one of the
-                    examples that solutions need to be better, pragmatic, holistic and above all sustainable. Here lies
-                    the responsibilities on institutions like us to provide environment where younger minds can be
-                    motivated to solve the problems of their times by better application of technology, management and
-                    networking of thoughts and sharing of knowledge. <br>
-                    
-
-                </p>
-                <p style="width: 90%;margin-top:-.5%;">I welcome you to open up your ideas and make this world a much better place for you and next
-                    generations. <br>
-                    Needless to say that ITM is the Place. "</p>
+                <div class="speech">
+                    <div class="name">
+                        <img id="adminImg"  src="./mD 2.jpg" alt="">
+                        <h5>Dr. Daulat Singh Chauhan <br> Managing Director, ITM Gwalior</h5>
+                    </div>
+                    <p >
+                        "Past few decades have seen the use of the word “innovation” more than ever before for the simple
+                        reason that the solutions provided were derived by applying older techniques and that too
+                        traditionally and therefore newer challenges and problems could not be addressed in sustainable
+                        manner. The sudden economic recession of recent times faced by so many countries is one of the
+                        examples that solutions need to be better, pragmatic, holistic and above all sustainable. Here lies
+                        the responsibilities on institutions like us to provide environment where younger minds can be
+                        motivated to solve the problems of their times by better application of technology, management and
+                        networking of thoughts and sharing of knowledge. <br>
+                        <br>
+    
+                        I welcome you to open up your ideas and make this world a much better place for you and next
+                        generations. <br>
+                        Needless to say that ITM is the Place. "
+                    </p>
+                    </div>
             </section>
 
             <section id="section1">
                 <h3>Director's Message</h3>
-                <img id="directorImg" src="./_DSC0534.JPG" alt="">
-                <p style="max-width: 62%;">Welcome to <b>Institute of Technology and Management, Gwalior</b>. ITM, as is
+                <div class="speech">
+                    <div class="name">
+                        <img id="adminImg" src="./_DSC0534.JPG" alt="">
+                        <h5>
+                            Dr. Meenakshi Mazumdar <br>
+                            Director, ITM Gwalior
+                        </h5>
+        
+                    </div>
+                <p>Welcome to <b>Institute of Technology and Management, Gwalior</b>. ITM, as is
                     popularly known, has already established its position as a top technical institute in Madhya
                     Pradesh. <br>
                     Apart from imparting technical skills in the existing departments of <b>Computer Science,
@@ -177,8 +188,8 @@
                     order to ensure a holistic development among students, the institute has introduced the newly
                     designed activities the <b>Activity Based Continuous Assessment System (ABCAS)</b> and Project
                     Based
-                    Learning for more hands-on </p>
-                    <p style="width: 90%;margin-top:-.5%;"> experience complimented with strong fundamentals. This offers more
+                    Learning for more hands-on 
+                    experience complimented with strong fundamentals. This offers more
                         choices to the students and help them imbibe necessary socialskills as well. ITM strongly
                         encourages its faculties in active research collaboration on projects of great societal importance.
                     Apart form from the rigourous curriculum, various activities at technical club, soft skill tranings,
@@ -196,11 +207,8 @@
                     congratulate all the entrants for choosing ITMGOI as wings to their aspirations.
                 </p>
                 <br>
-                <h5>
-                    Dr. Meenakshi Mazumdar <br>
-                    Director, ITM-GWALIOR
-                </h5>
-
+            </div>
+                
             </section>
             
             

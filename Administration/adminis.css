@@ -376,6 +376,7 @@ header section aside p{
     color: #111;
     line-height: 20px;
     margin-top: -1%;
+    text-transform: capitalize;
     
 }
 header section aside .img{
@@ -430,7 +431,7 @@ header section aside .img img{
 /*division_3*/
 .division_3{
     /* margin:3rem auto; */
-    margin-top: 26rem;
+    margin-top: 30%;
 }
 
 .division_3 .slider{  
