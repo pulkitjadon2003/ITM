@@ -23,6 +23,7 @@ body {
     gap: 20px;
     padding: 2vh 5vw;
     margin-bottom: 5%;
+    padding-top: 5%;
 }
 
 .card {
@@ -31,16 +32,20 @@ body {
     padding: 45px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.card img {
+    cursor: pointer;
+  }
+  
+  .card img {
     width: 150px;
     height:150px;
     object-fit: contain;
     margin-bottom: 10px;
-}
+    transition: all ease .3s;
 
-.card p {
+  }
+  
+  .card p {
+    transition: all ease .3s;
     font-size: 14px;
     font-weight: bold;
     color: #333;
@@ -48,6 +53,16 @@ body {
     border: 1px solid black;
     border-radius: 5px;
     padding: 5px;
+    text-transform: uppercase;
+}
+
+.card:hover p{
+  color: #FCB040;
+  border: 1px solid #FCB040;
+
+}
+.card:hover img{
+  scale: 1.03;
 }
 .profile-card {
     display: flex;
