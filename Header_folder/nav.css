@@ -121,7 +121,7 @@ nav #logo img {
 }
 
 #navSec {
-  width: 70%;
+  width: 75%;
   height: 100%;
   display: flex;
   align-items: center;
@@ -169,12 +169,12 @@ nav #logo img {
 /* submenu style */
 #navSec ul .submenu {
   position: absolute;
-  left: -100px;
+  left: -135px;
   background-color: #f9f9f9;
   box-shadow: 0 20px 45px #00000020;
   display: grid;
   grid-row-gap: 10px;
-  width: 260px;
+  width: 220px;
   grid-template-columns: auto;
   z-index: -999;
   padding: 5px;
