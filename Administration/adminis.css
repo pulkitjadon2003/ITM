@@ -1,6 +1,8 @@
 /***************************
     CUSTOM SCROLL BAR
 ****************************/
+
+
 *, html{
     scroll-behavior: smooth;
 }
@@ -60,7 +62,7 @@ body{
 #img img{
     height: 100%;
     width: 100%;
-    object-fit: fill;
+    object-fit: cover;
     object-position: center;
 }
 #img #nameDiv{
