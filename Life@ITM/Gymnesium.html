@@ -60,10 +60,77 @@
     
     .container{
         position: relative;
-        padding: 2vh 5vw;
+        padding: 2vh 3vw;
         margin-bottom: 5%;
     }
-    
+  
+    .sports{
+        font-size: 18px;
+        margin: 15px;
+        line-height: 1.3;
+        /* background-color: antiquewhite; */
+        padding: 12px;
+        border-radius: 10px;
+    }
+
+   .sports h3{
+    color: #503091;
+   }
+   .sports p{
+    text-align: justify;
+   }
+   .gallery-container {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    position: relative;
+    width: 350px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+.gallery-item:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    padding: 10px;
+}
     </style>
     <script src="/nav-enable.js"></script>
 </head>
@@ -79,16 +146,57 @@
     </div>
 
     <div class="container">
-        <p style="margin: 20px;">
-            <img src="https://web.mitsgwalior.in/images/mainmenu/Gym1.jpg" style="max-width: 100%; " alt="">
-        </p>
-        <p style="margin: 20px;">
-            <img src="https://web.mitsgwalior.in/images/mainmenu/gym2.jpg" style="max-width: 100%; " alt="">
-        </p>
         
-        
-        
+        <div class="sports">
+            <h3>Gymnesium</h3>
+            <p> Welcome to the Gymnasium page of ITM GOI Gwalior! Our state-of-the-art gymnasium offers a wide range of fitness facilities to help students maintain a healthy and active lifestyle. Equipped with modern workout machines and free weights, the gym provides a dedicated space for physical training, strength building, and overall wellness. With professional guidance and a supportive environment, we encourage students to balance their academic life with regular fitness routines to enhance both physical and mental well-being.</p>
+            
         </div>
+
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="./gym (1).jpg" alt="Picture 1">
+                <div class="overlay">
+                    <!-- <div class="text">Medical Wards</div> -->
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./gym (2).jpg" alt="Picture 2">
+                <div class="overlay">
+                    <!-- <div class="text">Minor OT</div> -->
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./gym (3).jpg" alt="Picture 3">
+                <div class="overlay">
+                    <!-- <div class="text">Doctor visit</div> -->
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./gym (4).jpg" alt="Picture 1">
+                <div class="overlay">
+                    <!-- <div class="text">Staff</div> -->
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./gym (5).jpg" alt="Picture 2">
+                <div class="overlay">
+                    <!-- <div class="text">Doctor's Cabin</div> -->
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./gym (6).jpg" alt="Picture 3">
+                <div class="overlay">
+                    <!-- <div class="text">General Wards</div> -->
+                </div>
+            </div>
+        </div>
+        </div>
+        
+        
+        
+        
+        
         
         
 

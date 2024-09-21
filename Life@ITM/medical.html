@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Medical & Dispensary</title>
+    <title>medical</title>
     <link rel="stylesheet" href="/font.css">
     <link rel="stylesheet" href="lifeITM.css">
 
@@ -22,111 +22,218 @@
         overflow-x: hidden;
     }
     
-    .header {
-        color: white;
-        height: 45vh;
-        position: relative;
-        text-align: center;
-    }
-    .header h1 {
-        margin: 0;
-        font-size: 24px;
-        position: absolute;
-        bottom: 10%;
-        left: 10%;
-    
-        font-size: 3vmax;
-        font-weight: 500;
-        z-index: 5;
-    }
-    .header img{
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        object-position: center;
-        filter: brightness(70%);
-    }
+   
     .container{
         position: relative;
         padding: 2vh 3vw;
         margin-bottom: 5%;
     }
-    .article{
-        font-size: 18px;
-        margin: 15px;
-        line-height: 1.3;
-        
-    }
+  
     .sports{
         font-size: 18px;
         margin: 15px;
         line-height: 1.3;
-        background-color: antiquewhite;
-        padding: 40px;
+        /* background-color: antiquewhite; */
+        padding: 12px;
         border-radius: 10px;
-        position: relative;
     }
 
-    .container ul li{
-        position: relative;
-    display: block;
-    font-weight: 400;
-    font-size:20px;
-    padding: 10px 5px 0;
-    padding-left: 40px;
-    }
-    p img{
-        height: 80%;
-        width: 80%;
-        object-fit: cover;
-        object-position: center;
-        margin-left: 10%;
-    }
-    .content{
-        margin-top: 20px;
-        padding: 25px;
-    }
-    
+   .sports h3{
+    color: #503091;
+   }
+   .sports p{
+    text-align: justify;
+   }
+   .gallery-container {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    position: relative;
+    width: 350px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+.gallery-item:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    padding: 10px;
+}
+.section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.left-section, .right-section {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    /* background-color: #f9f9f9; */
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #503091;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1em;
+    /* color: #555; */
+}
+
+ul ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
     </style>
     <script src="/nav-enable.js"></script>
 </head>
 <body>
     <div id="nav-container"></div>
+
     <div id="img">
-        <img src="./dunedin-university-of.jpg" alt="">
+        <img src="https://content.jdmagicbox.com/comp/gwalior/a1/9999px751.x751.210517132859.x8a1/catalogue/itm-hospital-and-research-center-sithouli-gwalior-hospitals-liluuvkk8x.jpg" alt="">
         <div id="nameDiv">
-            <h2>Medical & Dispensary </h2>
+            <h2>Medical & Dispensary</h2>
             <div id="line"></div>
 
         </div>
     </div>
-   
-    <p style="margin: 20px;">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgCH1HLCbc59LNtD7JDvBucMJRMioiVx4CnQ&s" style="max-width: 100%; " alt="">
-    </p>
+    
     <div class="container">
         
         <div class="sports">
-            <h2>Working Hours: 10:00 AM- 7:20 PM</h2>
-            <h4>Doctors:</h4>
-            <p style="font-size: 15px;">Dr. Vishal Bisariya :- 11:00 PM to 2:00 PM <br>
-
-                Dr. Jaya Shrivastava:- 03:00 PM to 5:00PM<br>
-                Contact No.:- 0751-2409379</p>
+            <h3>MEDICAL HEALTH CARE CENTER (MHCC)</h3>
+            <p> ITM GOI has an in-house modern Medical Health Care Center
+                (MHCC) with a view to facilitate a holistic development of
+                mind & body for an all round progress of our students. The
+                center, thus, provides preventive, promotive as well as
+                curative health care services with a view to ensuring sound
+                health for all the members of ITM family is also available.
+                A full time specialist doctor for conducting the regular
+                health check-ups and providing medical attention when
+                
+                needed.MHCC has a well equipped clinic with required
+                equipments & 5 beds for in house patients alongwith one
+                ambulance which is available round the clock.</p>
+            
         </div>
-        <div class="content">
-            <h2>Facilities Available At Medical Dispensary</h2>
-            <h3 style="padding: 15px; color: rgb(96, 183, 186);">OPD Consultation:</h3>
-            <p>All staff members, their dependants, all students and their dependants are entitled for consultation free of charge.</p>
-            <h3 style="padding: 15px;color: rgb(96, 183, 186);">OPD Consultation:</h3>
-            <p>All staff members, their dependants, all students and their dependants are entitled for consultation free of charge.</p>
-            <h3 style="padding: 15px;color: rgb(96, 183, 186);">OPD Consultation:</h3>
-            <p>All staff members, their dependants, all students and their dependants are entitled for consultation free of charge.</p>
-            <h3 style="padding: 15px;color: rgb(96, 183, 186);">OPD Consultation:</h3>
-            <p>All staff members, their dependants, all students and their dependants are entitled for consultation free of charge.</p>
+
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="./medi1 (1).JPG" alt="Picture 1">
+                <div class="overlay">
+                    <div class="text">Medical Wards</div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./medi1 (2).JPG" alt="Picture 2">
+                <div class="overlay">
+                    <div class="text">Minor OT</div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./medi6.jpg" alt="Picture 3">
+                <div class="overlay">
+                    <div class="text">Doctor visit</div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./medi1 (3).JPG" alt="Picture 1">
+                <div class="overlay">
+                    <div class="text">Staff</div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./medi1 (4).JPG" alt="Picture 2">
+                <div class="overlay">
+                    <div class="text">Doctor's Cabin</div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./medi1 (5).JPG" alt="Picture 3">
+                <div class="overlay">
+                    <div class="text">General Wards</div>
+                </div>
+            </div>
         </div>
         
-
+        <!-- <div class="section">
+            <div class="left-section">
+                <h2>Achievements in Sports Tournaments</h2>
+                <ul>
+                    <li>Amit Sharma was selected for state level Kabaddi.</li>
+                    <li>Nasirullah (CE) - Represented RGPV in the West Zone Football tournament.</li>
+                    <li>Aman Tripathi (EC) - Represented RGPV in the West Zone Basketball championship.</li>
+                    <li>ITM is the winner of Nodal Level Cricket Tournament 2017-18.</li>
+                </ul>
+            </div>
+            <div class="right-section">
+                <h2>Selected Players and Teams</h2>
+                <ul>
+                    <li><strong>Basketball:</strong> Sherin Khan, Shivam Yamdagni</li>
+                    <li><strong>Chess:</strong> Mayank Sharma, Sachin S. Rajawat, Sikha Rajak</li>
+                    <li><strong>Football:</strong> Chitransh Pandey, Sagar Masand</li>
+                    <li><strong>Badminton:</strong> Harishabh Tiwari, Vasundhara Sharma</li>
+                    <li><strong>Handball:</strong> Abhishek Geri, Himalaya Thakur, Navod Sharma, Debashish Samal</li>
+                    <li><strong>Selected for Nationals to represent RGPV Bhopal:</strong></li>
+                    <ul>
+                        <li><strong>Chess:</strong> Mayank Sharma, Shikha Rajak</li>
+                        <li><strong>Athletics:</strong> Pragati Rana, Debashish Sharma</li>
+                    </ul>
+                </ul>
+            </div>
+        </div> -->
 
 
 
@@ -134,9 +241,9 @@
 
         
     </div>
+
     <div id="footer-container"></div>
 
-  
     
 </body>
 </html>
