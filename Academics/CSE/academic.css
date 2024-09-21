@@ -18,7 +18,7 @@ body {
     position: relative;
 }
 #img {
-    height: 40vh;
+    height: 45vh;
     width: 100vw;
     position: relative;
   }
@@ -26,7 +26,7 @@ body {
   #img img {
     height: 100%;
     width: 100%;
-    object-fit: fill;
+    object-fit: cover;
     object-position: center;
   }
   

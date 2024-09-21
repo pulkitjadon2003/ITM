@@ -349,37 +349,39 @@ header article .title{
     font-weight:700;
 }
 
-header section{
+.header {
     width:90%;
     height: 70%;
-    position:absolute;
-    left:50%;
-    transform:translate(-50%, 2rem);
+    /* position:absolute; */
+    margin-left: 5%;
+    margin-top: 2%;
+    /* transform:translate(-50%, 2rem); */
     gap: 44px;
     top: 100%;
     padding: 0 15px;
     
 }
 
-header section aside{
+.header aside{
     position:relative;
     /* background-color: ; */
     border-radius: 20px;
-    height: 55vh;
+    min-height: 55vh;
     width: 30%;
     outline: 1px solid grey;
     color: #503091;
 
     
 }
-header section aside p{
+.header aside p{
+    font-size: 1vmax;
     color: #111;
     line-height: 20px;
     margin-top: -1%;
     text-transform: capitalize;
     
 }
-header section aside .img{
+.header aside .img{
     width: 55%;
     height: 55%;
     margin: 0 auto;
@@ -393,11 +395,11 @@ header section aside .img{
     border: none;
     outline: none;
 }
-header section aside:hover .img{
+.header aside:hover .img{
     border-radius:  50% ;
 
 }
-header section aside .img img{
+.header aside .img img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -431,7 +433,7 @@ header section aside .img img{
 /*division_3*/
 .division_3{
     /* margin:3rem auto; */
-    margin-top: 30%;
+    margin-top: 2%;
 }
 
 .division_3 .slider{  
