@@ -365,7 +365,7 @@ header section aside{
     position:relative;
     /* background-color: ; */
     border-radius: 20px;
-    height: 55vh;
+    min-height: 55vh;
     width: 30%;
     outline: 1px solid grey;
     color: #503091;
@@ -373,6 +373,7 @@ header section aside{
     
 }
 header section aside p{
+    font-size: 1vmax;
     color: #111;
     line-height: 20px;
     margin-top: -1%;
@@ -431,7 +432,7 @@ header section aside .img img{
 /*division_3*/
 .division_3{
     /* margin:3rem auto; */
-    margin-top: 30%;
+    margin-top: 35%;
 }
 
 .division_3 .slider{  
