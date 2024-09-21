@@ -230,3 +230,9 @@ html,body{
   background-repeat: no-repeat;
   margin-left: -35px;
 }
+
+#accreditation{
+    height: 3vmax;
+    position: absolute;
+    background-color: red;
+}
