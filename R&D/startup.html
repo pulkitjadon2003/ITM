@@ -16,7 +16,7 @@
 }
 
 main {
-    padding: 20px;
+    padding: .2rem 5rem;
 }
 
 .image{
@@ -110,6 +110,69 @@ li {
         filter: brightness(70%);
         background-attachment: fixed;
       }
+
+      .gallery-container {
+        display: flex;
+        gap: 30px;
+        padding: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .gallery-item {
+        position: relative;
+        width: 350px;
+        height: 300px;
+        overflow: hidden;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .gallery-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        transition: transform 0.5s ease;
+    }
+    
+    .gallery-item:hover img {
+        transform: scale(1.1);
+    }
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .gallery-item:hover .overlay {
+        opacity: 1;
+    }
+    
+    .text {
+        padding: 10px;
+    }
+    .section {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
     </style>
      <script>
       document.addEventListener("DOMContentLoaded", function () {
@@ -145,25 +208,78 @@ li {
 
      <main>
        
-        <div class="image">
+        <!-- <div class="image">
             <img src="" alt="startup-image">
-        </div>
+        </div> -->
 
          <div>
-            <p><b>Mission:</b>To create a self sustainable platform for all the stakeholders in and around MITS willing to unleash their potential as idea progenitor and executor.</p>
-            <p><b>Vision:</b>To create a self sustainable platform for all the stakeholders in and around MITS willing to unleash their potential as idea progenitor and executor.</p>
-
+            
         </div>
         <section id="section1">
-            <h3>Objectives</h3>
-            <ul>
-                <li>Foster a spirit of entrepreneurship and innovation among the students and faculty.</li>
-                <li>Nurture start-ups at an early stage and help them overcome obstacles.</li>
-                <li>Promote the culture of Product Development, Innovation, Entrepreneurship, Business Development, and Start-up.</li>
-                <li>Offer value-added and incremental services such as financial, technical, legal, IPR, and mentoring to students, faculty, and staff.</li>
-                <li>Provide resources and networking opportunities to support MITS Gwalior young entrepreneurs on the path to commercialization.</li>
-                <li>Move ideas from the institute laboratory to the market.</li>
-            </ul>
+            <h3>Institute Innovation Council</h3>
+            <p>To further institutionalize the innovation ecosystem, our institute has established a
+                well-structured Institute Innovation Council (IIC). This council comprises deans, heads
+                of departments, and faculty members who bring diverse expertise and perspectives to
+                
+                the table. The IIC is responsible for strategizing, overseeing, and promoting innovation-
+                related activities within the institute. By involving senior academic leaders, the council
+                
+                ensures that innovation remains a strategic priority and is integrated into the academic
+                and research agenda of the institute.</p>
+          
+            <p>In an era marked by rapid technological advancements and evolving market
+                dynamics, fostering innovation and entrepreneurship is crucial for sustaining economic
+                growth and addressing global challenges. Recognizing this, our institute has
+                meticulously crafted an ecosystem that not only supports innovations but also facilitates
+                the creation and transfer of knowledge. This comprehensive approach is exemplified by
+                the approval and implementation of the National Innovation and Start-up Policy (Govt)
+                , which aims to nurture ideas from conception to realization. Below mentioned
+                Departments/Offices/Cell/Clubs are mainly involved in developing the innovation
+                ecosystem in the Institute.</p>
+                <br>
+                
+                <h3>Makers Lab</h3>
+                <p>
+                    Our institute recognizes the importance of hands-on experience and practical
+skills in driving innovation. To this end, we have established the Makers Lab, a
+dedicated space focused on robotics and its popularization. The Makers Lab provides
+students with the resources and guidance needed to design, prototype, and test their
+robotic innovations. By promoting interdisciplinary collaboration and experiential
+learning, the lab encourages students to explore the frontiers of technology and develop
+solutions that address real-world problems.
+Dedicated to the relentless pursuit of innovation, the Makers Lab serves as a platform
+for students passionate about the fascinating fields of drones, industrial robots, and
+humanoid robots. Here, we foster an environment that nurtures creativity,
+collaboration, and hands-on learning, empowering our members to turn their
+imaginative concepts into tangible realities.
+                </p>
+        
+        </section>
+        <section id="section1">
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="./img/image.png" alt="Picture 1">
+                    <div class="overlay">
+                        <div class="text">Drone Mania</div>
+                    </div>
+                </div>
+               
+                <div class="gallery-item">
+                    <img src="./img/sih.png" alt="Picture 3">
+                    <div class="overlay">
+                        <div class="text">Smart India Hackathon-2019 for
+
+                            Multipurpose Adjustable Cane</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/robo.png" alt="Picture 1">
+                    <div class="overlay">
+                        <div class="text">Makers Club </div>
+                    </div>
+                </div>
+               
+            </div>
         </section>
         <section id="section2">
             <h3>Start-Up Cell Student Council</h3>
@@ -171,38 +287,25 @@ li {
             <br>
             <p>Your journey to explore what it takes to be an entrepreneur starts here. An investment in the right direction now might land you places in the future. Now is the time to let out the entrepreneur inside you and manifest your creativity, innovativeness, and uniqueness. We invite all enthusiastic students to work with us and experience what it takes to run a Start-Up Cell. Apart from valuable Certificates and Letters of Recommendation, you gain extensive knowledge on entrepreneurship, leadership, marketing, content writing, web and app development, event management, etc., by working on various events, projects, and tasks of the Start-Up Cell.</p>
         </section>
+        <section id="section2">
+            <h3>Incubation Cell</h3>
+            <p>A significant milestone in our journey towards nurturing innovation is the incorporation
+                of the ITM’s state-of-the-art incubation center commonly known as "IDEAPAD" is
+                registered under company act 2013 by the name of "ITM Business and Incubation
+                Foundation" with corporate identity number "U80301MP2021NPL055625/01.04.2021"
+                which serves as a hub for entrepreneurial activity, providing a conducive environment
+                for start-ups and innovative ventures. Entrepreneurs benefit from a range of resources,
+                including mentorship, funding opportunities, and access to advanced facilities.
+                IDEAPAD plays a pivotal role in fostering entrepreneurship by providing a supportive
+                environment for young minds to develop their entrepreneurial skills. The foundation
+                offers incubation facilities, mentorship, and access to funding, enabling aspiring
+                entrepreneurs to navigate the challenges of starting and scaling their ventures. By
+                bridging the gap between academia and industry, IDEAPAD enhances the
+                commercialization potential of innovative ideas.</p>
+
+            </section>
     </main>
-     <div class="container">
-        <h2></h2>
-        <table>
-            <tr>
-                <th width="5%">S.No.</th>
-                <th width="20%">Title</th>
-                
-            </tr>
-            <tr>
-                <td>1</td>
-                <td><a href="#" download="path to file">Anti-ragging Committee</a></td>
-               
-            </tr>
-            <tr>
-                <td>2</td>
-                <td><a href="#" download="path to file">Proctorial Board</a></td>
-               
-            </tr>
-            <tr>
-                <td>3</td>
-                <td><a href="#" download="path to file">Anti Ragging Duty</a></td>
-               
-            </tr>
-            <tr>
-                <td>4</td>
-                <td><a href="#" download="path to file">Minutes of Meeting</a></td>
-               
-            </tr>
-           
-        </table>
-    </div>
+     
         <div id="footer-container"></div>
 
 </body>

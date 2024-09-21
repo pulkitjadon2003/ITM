@@ -220,72 +220,6 @@
 
 
 
-      // script.js
-
-let currentSlide = 0;
-const slides = document.querySelectorAll(".slide");
-const prevButton = document.getElementById("prev");
-const nextButton = document.getElementById("next");
-
-function initSlider() {
-  // Show the first slide immediately
-  slides[currentSlide].style.display = "block";
-
-  // Hide all other slides
-  slides.forEach((slide, index) => {
-    if (index !== currentSlide) {
-      slide.style.display = "none";
-    }
-  });
-}
-
-function showNextSlide() {
-  slides[currentSlide].style.display = "none";
-  currentSlide = (currentSlide + 1) % slides.length;
-  slides[currentSlide].style.display = "block";
-
-  // Animate the coming slide from the right
-  const comingSlide = slides[currentSlide];
-  const animationDuration = 700; // Adjust as needed
-
-  comingSlide.style.animation = `slideInFromRight ${animationDuration}ms`;
-}
-
-function showPrevSlide() {
-  slides[currentSlide].style.display = "none";
-  currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-  slides[currentSlide].style.display = "block";
-
-  // Animate the coming slide from the left
-  const comingSlide = slides[currentSlide];
-  const animationDuration = 700; // Adjust as needed
-
-  comingSlide.style.animation = `slideInFromLeft ${animationDuration}ms`;
-}
-
-function autoPlay() {
-  setInterval(showNextSlide, 4000); // Change slide every 3 seconds
-}
-
-// Initial setup
-initSlider();
-
-// Event listeners
-prevButton.addEventListener("click", showPrevSlide);
-nextButton.addEventListener("click", showNextSlide);
-
-// Start autoplay
-autoPlay();
-
-// Toggle play/pause function
-function togglePlayPause(videoId) {
-  var video = document.getElementById(videoId);
-  if (video.paused) {
-    video.play();
-  } else {
-    video.pause();
-  }
-}
 
 // Enter full-screen mode
 function enterFullscreen(videoId) {
@@ -303,3 +237,4 @@ function enterFullscreen(videoId) {
     video.msRequestFullscreen();
   }
 }
+
