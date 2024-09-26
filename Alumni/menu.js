@@ -16,25 +16,11 @@ The institute’s alumni network is one of its strongest assets, creating a bond
       </p>
 
   
-<!-- Video Section -->
-<div class="video-container">
-  <video id="video1" class="video" width="800" height="360" controls>
-      <source src="https://videos.pexels.com/video-files/9559153/9559153-uhd_2732_1440_25fps.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-  </video>
-  <h2>Media is the fourth pillar of democracy</h2>
-  
-</div>
 
-<div class="video-container">
-  <video id="video2" class="video" width="800" height="360" controls>
-      <source src="https://videos.pexels.com/video-files/9697774/9697774-uhd_2560_1440_25fps.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-  </video>
-  <h2>Message Director ITM Gwalior,
-    <br> Dr. Meenakshi Mazumdar to Alumni</h2>
+
+
  
-</div>
+
 <div class="alumni-info">
   <div>
       <h2>25000+</h2>
@@ -94,44 +80,40 @@ The institute’s alumni network is one of its strongest assets, creating a bond
          `,
 
     mentor: `
-     <div class="chapters">
+     
+
+<div class="chapters">
   <h2>Alumni Meet Chapters</h2>
-  <div class="links">
-   <table>
+  <table>
               <thead>
                   <tr>
                       <th>Sr. No.</th>
-                      <th>Alumini Stories</th>
+                      <th>Chapters</th>
                   </tr>
               </thead>
               <tbody>
                   <tr>
                       <td>1.</td>
-                      <td>
-                      <a href="https://www.itmgoi.in/alumni/Videos/Alumni%20Mentorship%20Program/SACHIIN%20GUPTA.mp4">Mr. Sachiin Gupta, Engineering Manager, veritas Technologies Pune</a>
-                      
-                      </td>
+                      <td><a href="https://www.itmgoi.in/alumni/Videos/Alumni%20Mentorship%20Program/SACHIIN%20GUPTA.mp4">Mr. Sachiin Gupta, Engineering Manager, veritas Technologies Pune</a></td>
                   </tr>
                     <tr>
                       <td>2.</td>
                       <td>
-                      <a href="https://www.itmgoi.in/alumni/Videos/Alumni%20Mentorship%20Program/KUNAL%20BHALLA.mp4" >Mr. Kunal Bhalla, Enterprise Daata Architect, Natwest Group</a>
-
+      <a href="https://www.itmgoi.in/alumni/Videos/Alumni%20Mentorship%20Program/KUNAL%20BHALLA.mp4" >Mr. Kunal Bhalla, Enterprise Daata Architect, Natwest Group</a>
                       </td>
                   </tr>
                     <tr>
                       <td>3.</td>
-                      <td>
-                      <a href="https://www.itmgoi.in/alumni/Videos/Alumni%20Mentorship%20Program/JATIN%20SHRIVASTAVA.mp4">Mr. Jatin Shrivastava, Sr. Product Manager, Waisi Limited</a>
-                      
-                      </td>
+                      <td><a href="https://www.itmgoi.in/alumni/Videos/Alumni%20Mentorship%20Program/JATIN%20SHRIVASTAVA.mp4">Mr. Jatin Shrivastava, Sr. Product Manager, Waisi Limited</a></td>
                   </tr>
-                
+                  <tr>
+                      <td>4.</td>
+                      <td><a href="./doc/Alumni Mentorship Program-2024.pdf">Alumni Mentorship Meeting</a></td>
+                  </tr>
               </tbody>
           </table>
-
-  </div>
 </div>
+
     `,
     testimonials: `
     
@@ -223,91 +205,190 @@ The institute’s alumni network is one of its strongest assets, creating a bond
 <p>Why we choose college? For good training, exposure of industries and yes company visiting to our campus. That what is about itm Tap cell heart of our institution. Training on most updated technology enhancing our technical skills.</p>
 <!-- Add more details as needed -->
 </div>
-<img src="https://images.unsplash.com/photo-1720048171080-78849cff8b19?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8" alt="Person Image">
+<img src="./image/alumini_2018_image1.png" alt="Person Image">
 </div>
 </div>
        <div class="card-container-speak">
 <div class="card-speak">
 <div class="card-content-speak">
-<h2>Rishabh Khandelwal</h2>
+<h2>Paran Verma</h2>
 <p>CS - ITM (Placed in INFOSYS)</p>
-<p>Why we choose college? For good training, exposure of industries and yes company visiting to our campus. That what is about itm Tap cell heart of our institution. Training on most updated technology enhancing our technical skills.</p>
+<p>I always aspired to pursue my Engineering in Computer Science at ITM. And now in these past 04 years, I have realized my dream every day. I am extremely grateful to the faculty and management with whose undivided support I have been able to successfully accomplish my program in a very progressive environment. The guidance I have received at every milestone has helped me thrive in my best abilities. I would also like to extend my sincere thanks to TAP cell that has been very effective and instrumental in the placement processes. It has been a fulfilling and rewarding journey at ITM which provided me a great platform to a promising career.</p>
 <!-- Add more details as needed -->
 </div>
-<img src="https://images.unsplash.com/photo-1720048171080-78849cff8b19?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8" alt="Person Image">
+<img src="./image/alumini_2018_image2.png" alt="Person Image">
 </div>
 </div>           <div class="card-container-speak">
 <div class="card-speak">
 <div class="card-content-speak">
-<h2>Rishabh Khandelwal</h2>
-<p>CS - ITM (Placed in INFOSYS)</p>
-<p>Why we choose college? For good training, exposure of industries and yes company visiting to our campus. That what is about itm Tap cell heart of our institution. Training on most updated technology enhancing our technical skills.</p>
+<h2>Poorvi Agrawal</h2>
+<p>CS - ITM (Placed in Reflex Solution)</p>
+<p>The journey of ITM has been a very wonderful experience . Without the support of teachers , my journey won’t be possible . And also , the Trainings conducted by TAP CELL played a major role in improving my skills and personality . So I would like to thank each and every teacher who supported me and guided me throughout these 4yrs and helped me grow . Thank You
+
+</p>
 <!-- Add more details as needed -->
 </div>
-<img src="https://images.unsplash.com/photo-1720048171080-78849cff8b19?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8" alt="Person Image">
+<img src="./image/alumini_2018_image3.png" alt="Person Image">
 </div>
 </div>           <div class="card-container-speak">
 <div class="card-speak">
 <div class="card-content-speak">
-<h2>Rishabh Khandelwal</h2>
-<p>CS - ITM (Placed in INFOSYS)</p>
-<p>Why we choose college? For good training, exposure of industries and yes company visiting to our campus. That what is about itm Tap cell heart of our institution. Training on most updated technology enhancing our technical skills.</p>
+<h2>Uma Prateek Mishra</h2>
+<p>CS - ITM (Placed in INFOSYS & WIPRO)</p>
+<p>ITM has changed my life completely. I have learnt lot of new things in this beautiful journey of 4 years. Tap cell has always been so supportive and provided the best platform to achieve my goals. I would like to thank ITM ,Tapcell and all the faculties for being the part of my success.</p>
 <!-- Add more details as needed -->
 </div>
-<img src="https://images.unsplash.com/photo-1720048171080-78849cff8b19?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8" alt="Person Image">
+<img src="./image/alumini_2018_image4.png" alt="Person Image">
 </div>
 </div>           <div class="card-container-speak">
 <div class="card-speak">
 <div class="card-content-speak">
-<h2>Rishabh Khandelwal</h2>
-<p>CS - ITM (Placed in INFOSYS)</p>
-<p>Why we choose college? For good training, exposure of industries and yes company visiting to our campus. That what is about itm Tap cell heart of our institution. Training on most updated technology enhancing our technical skills.</p>
+<h2>Himanshu Punjabi</h2>
+<p>(Placed in IBM )</p>
+<p>Proud to be a part of ITMGOI, getting placed in IBM is like a dream come true to me. My efforts, parent's blessings and teacher's fruitful guidance helped me achieve my goal. Tap cell has been very instrumental in my preparation. The training not just enhanced my technical skills but also developed my logical as well as communication skills. Being in ITM has been the most wonderful and memorable phase of my life.</p>
 <!-- Add more details as needed -->
 </div>
-<img src="https://images.unsplash.com/photo-1720048171080-78849cff8b19?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8" alt="Person Image">
+<img src="./image/alumini_2017_image9.png" alt="Person Image">
 </div>
 </div>           <div class="card-container-speak">
 <div class="card-speak">
 <div class="card-content-speak">
-<h2>Rishabh Khandelwal</h2>
-<p>CS - ITM (Placed in INFOSYS)</p>
-<p>Why we choose college? For good training, exposure of industries and yes company visiting to our campus. That what is about itm Tap cell heart of our institution. Training on most updated technology enhancing our technical skills.</p>
+<h2>MOHINI JAIN</h2>
+<p>(Placed in IBM , INFOSYS , WIPRO )</p>
+<p>It gives me immense pleasure to pursue engineering from an institute that provides ample opportunities for each student to get placed in top IT companies. 4 years in college provided us with not only academics but also various training modules which helped us boost our confidence at each step. Thanks to all the TAP cell officials and teachers for such great guidance. These years were a golden period of my life.</p>
 <!-- Add more details as needed -->
 </div>
-<img src="https://images.unsplash.com/photo-1720048171080-78849cff8b19?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8" alt="Person Image">
+<img src="./image/alumini_2017_image6.png" alt="Person Image">
 </div>
 </div>           <div class="card-container-speak">
 <div class="card-speak">
 <div class="card-content-speak">
-<h2>Rishabh Khandelwal</h2>
-<p>CS - ITM (Placed in INFOSYS)</p>
-<p>Why we choose college? For good training, exposure of industries and yes company visiting to our campus. That what is about itm Tap cell heart of our institution. Training on most updated technology enhancing our technical skills.</p>
+<h2>Diksha Bhadauria</h2>
+<p>CS - ITM (Placed in Capgemini )</p>
+<p>Thank you ITM for providing me an opportunity to explore career opportunity at India’s one of the most reputed tech firm, Capgemini. It is the hard work of our Tap Cell which provides us opportunities and resources to ensure an appropriate start to their career.</p>
 <!-- Add more details as needed -->
 </div>
-<img src="https://images.unsplash.com/photo-1720048171080-78849cff8b19?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8" alt="Person Image">
+<img src="./image/alumini_2017_image1.png" alt="Person Image">
 </div>
 </div>           <div class="card-container-speak">
 <div class="card-speak">
 <div class="card-content-speak">
-<h2>Rishabh Khandelwal</h2>
-<p>CS - ITM (Placed in INFOSYS)</p>
-<p>Why we choose college? For good training, exposure of industries and yes company visiting to our campus. That what is about itm Tap cell heart of our institution. Training on most updated technology enhancing our technical skills.</p>
+<h2>Akanksha Dixit
+</h2>
+<p>(Placed in Capital AIM )</p>
+<p>It feels very special to got placement. TAPCELL is very supportive for giving guidelines and training related to placements. It was my best decision to take admission in ITM .</p>
 <!-- Add more details as needed -->
 </div>
-<img src="https://images.unsplash.com/photo-1720048171080-78849cff8b19?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8" alt="Person Image">
+<img src="./image/alumini_2017_image2.png" alt="Person Image">
 </div>
 </div>           <div class="card-container-speak">
 <div class="card-speak">
 <div class="card-content-speak">
-<h2>Rishabh Khandelwal</h2>
+<h2>Priya Shandilya</h2>
 <p>CS - ITM (Placed in INFOSYS)</p>
-<p>Why we choose college? For good training, exposure of industries and yes company visiting to our campus. That what is about itm Tap cell heart of our institution. Training on most updated technology enhancing our technical skills.</p>
+<p>I am happy and my dream came true when I got placed before the end of my final year and that was made possible by my Training and placement department and the incredibly supportive and understanding faculties of ITM. Thank you TAPCELL and ITM for making me employable .</p>
 <!-- Add more details as needed -->
 </div>
-<img src="https://images.unsplash.com/photo-1720048171080-78849cff8b19?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8" alt="Person Image">
+<img src="./image/alumini_2017_image3.png" alt="Person Image">
 </div>
 </div>
       `,
+      events:`
+      <div class="chapters">
+  <h2>Alumni Events</h2>
+  <table>
+              <thead>
+                  <tr>
+                      <th>Sr. No.</th>
+                      <th>Events</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>1.</td>
+                      <td><a href="./doc/Alumni Expert Talk on Computer Programming and Trending Technologies.pdf">Alumni Expert Talk on Computer Programming and Trending Technologies</a></td>
+                  </tr>
+                    <tr>
+                      <td>2.</td>
+                      <td><a href="./doc/Alumni Expert Talk on Generative AI and Its Tool.pdf" >Alumni Expert Talk on Generative AI and Its Tool</a>
+                      </td>
+                  </tr>
+                    <tr>
+                      <td>3.</td>
+                      <td><a href="./doc/Alumni Meet-2019.pdf">Alumni Meet-2019</a></td>
+                  </tr>
+                  <tr>
+                      <td>4.</td>
+                      <td><a href="./doc/Alumni Meet-2020.pdf">Alumni Meet-2020</a></td>
+                  </tr>
+                  <tr>
+                      <td>5.</td>
+                      <td><a href="./doc/Alumni Meet-2021.pdf">Alumni Meet-2021</a></td>
+                  </tr>
+                  <tr>
+                      <td>6.</td>
+                      <td><a href="./doc/Alumni Meet-2022.pdf">Alumni Meet-2022</a></td>
+                  </tr>
+                  <tr>
+                      <td>7.</td>
+                     <td><a href="./doc/Alumni Meet-2023.pdf">Alumni Meet-2023</a></td>
+                  </tr>
+                  <tr>
+                      <td>8.</td>
+                      <td><a href="./doc/Alumni Meet-2024.pdf">Alumni Meet-2024</a></td>
+                  </tr>
+              </tbody>
+          </table>
+</div>
+      `,
+
+      achieve:`
+      <div class="achieve">
+      <img src="./image/Alumni-Noticed.jpg">
+      </div>
+
+      `,
+      back:`
+      <div class="content">
+                
+                <h2>Alumni Engagement:</h2>
+                <p>The ITM Alumni Association (ITMAA) is a registered alumni association that actively contributes to the development of the institution through various forms of support, including financial contributions and other services. Formally registered on March 12th, 2021, under the Madhya Pradesh Societies Registration Act, 1973, with registration certificate No. 02/42/01/25050/21, ITMAA operates within a legally recognized framework governed by predefined rules and regulations outlined in its byelaws.
+Purpose and Objectives of the Alumni Association:
+The primary purpose of ITMAA is to maintain connections between the alumni, staff, and students of the institute. The association aims to keep alumni informed about the institute's vision, mission, and values while fostering a sense of community among the alumni network.
+</p>
+    
+                <h2>Objectives:</h2>
+                <ul>
+                    <li>Experience Sharing: Facilitate alumni sharing to aid professional development of current students.</li>
+                    <li>Career Guidance: Assist current students in making informed decisions about their education and career paths through alumni mentorship.</li>
+                    <li>Internships and Placements: Leverage alumni networks for internships and placements.
+</li>
+                    <li>Institute Development: Seek guidance and support from alumni to contribute to the overall development of the institute.</li>
+                    <p>ITMAA is dedicated to fostering a supportive community that enhances the institute’s development and maintains strong alumni connections, thereby creating a lasting impact through collaborative efforts, networking opportunities, and contributions that drive continuous growth and success for both the institute and its alumni.
+</p>
+                </ul>
+    
+                <h2>Impact of the Alumni Association:</h2>
+                <ul>
+                    <li>The Alumni Portal: The institute has partnered with Coherendz India Private Limited to create a dedicated alumni portal, accessible via http://itmalumni.in and the "My Alumni Network" app. This platform enables two-way communication between alumni and current students, fostering stronger ties with the alma mater. Key features include:</li>
+                    <li>Establishing communication links between alumni, students, and the institute's administration.</li>
+                    <li>Providing a forum for alumni to share ideas on academic, cultural, and social issues.
+</li>
+                    <li>Facilitating alumni mentorship programs and networks to support student development.
+</li>
+                   
+                </ul>
+
+               
+
+               
+                <h2>Alumni Engagement:</h2>
+                <ul>
+                    <a href="./doc/5.4_Alumni_Engagement.pdf" target="_blank">View</a>
+                </ul>
+                
+            </div>
+      `
   };
 
   sidebarLinks.forEach((link) => {
