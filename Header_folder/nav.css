@@ -108,7 +108,6 @@ nav #logo {
 }
 nav #logo img {
   height: 55%;
-
   object-fit: cover;
 }
 
@@ -116,9 +115,9 @@ nav #logo img {
   height: 60px;
   width: 100%;
   border-top: 1px solid black;
-  /* background-color: #f99f9; */
   position: relative;
 }
+
 
 #navSec {
   width: 75%;
@@ -152,8 +151,8 @@ nav #logo img {
   font-weight: 500;
   display: inline-block;
   font-size: 15px;
-  transition: all ease .4s;
   padding: 5px;
+  transition: background-color ease .4s;
   width: 100%;
   height: 100%;
 }
@@ -169,19 +168,18 @@ nav #logo img {
 /* submenu style */
 #navSec ul .submenu {
   position: absolute;
-  left: -135px;
   background-color: #f9f9f9;
-  box-shadow: 0 20px 45px #00000020;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: grid;
   grid-row-gap: 10px;
   width: 220px;
   grid-template-columns: auto;
   z-index: -999;
   padding: 5px;
-  margin-top: 18px;
+  margin-top: -1px;
   opacity: 0;
-  transition: all ease-in-out 0.4s;
   border-radius: 4px;
+  transition: opacity ease-in 0.4s;
 }
 
 #navSec ul li:hover .submenu {
@@ -206,9 +204,8 @@ nav #logo img {
   position: absolute;
   background-color: #f9f9f9;
   box-shadow: 0 20px 45px #00000020;
-  margin-left: 95%;
   width: 200px;
-  display: grid;
+  display: inline-block;
   grid-row-gap: 10px;
   grid-template-columns: auto;
   z-index: -9;
@@ -220,6 +217,10 @@ nav #logo img {
 #navSec ul .submenu li:hover .submenu2 {
   z-index: 99;
   opacity: 1;
+}
+#navSec ul .submenu>li:hover{
+  background-color: #ffc400;
+
 }
 
 
@@ -234,50 +235,4 @@ nav #logo img {
   display: inline-block;
   border-bottom: 1px solid rgba(0, 0, 0, 0.09);
 }
-
-
-
-/* #img {
-  height: 40vh;
-  width: 100vw;
-  position: relative;
-}
-
-#img img {
-  height: 100%;
-  width: 100%;
-  object-fit: fill;
-  object-position: center;
-}
-
-#img #nameDiv {
-  height: 9vh;
-  width: fit-content;
-  background-color: #d9d9d9;
-  position: relative;
-  top: -30%;
-  left: 5%;
-
-
-}
-
-#img #nameDiv #line {
-  height: 10%;
-  width: 80%;
-  background-color: rebeccapurple;
-  position: absolute;
-  top: 0;
-}
-
-#nameDiv h2 {
-  padding-top: 5%;
-  font-size: 40px;
-  text-align: center;
-  color: black;
-  height: 100%;
-  width: 100%;
-  padding: 10px;
-} */
-
-
 

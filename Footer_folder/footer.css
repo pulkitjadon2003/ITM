@@ -98,10 +98,11 @@ footer #lower-footer{
 
 footer #first-foot{
     height: 100%;
-    width: 38vw;
+    width: 30vw;
     /* background-color: red; */
     position: relative;
-    padding: 15vh 20vh;
+    padding: 15vh 10vh;
+    padding-right: 0;
 }
 
 footer #first-foot img{
@@ -130,7 +131,7 @@ footer #first-foot #follow-us #social-media{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    align-self: center;
+    /* align-self: center;  */
     overflow: hidden;
     /* background-color: red; */
 }
@@ -142,11 +143,11 @@ footer #first-foot #follow-us #social-media div{
     flex-direction: column;
     justify-content: space-between;
     transition: all ease .4s;
-    transition-delay: .2s;
+    transition-delay: .1s;
 }
 
 footer #first-foot #follow-us #social-media div:hover {
-    transform: translateY(-25px);
+    transform: translateY(-22px);
 }
 
 footer #first-foot #follow-us #social-media i{
@@ -154,12 +155,12 @@ footer #first-foot #follow-us #social-media i{
     font-size: 18px;
     cursor: pointer;
     transform-origin: 50% 50%;
+    margin-bottom: 2px;
     /* background-color: blue; */
     padding: 2px;
 }
 footer #first-foot #follow-us #social-media img{
     width: 20px;
-    margin-top: 3px;
     cursor: pointer;
     height: auto;
     /* transform-origin: 50% 50%; */
@@ -179,9 +180,9 @@ footer  h4::after{
 
 footer #second-foot{
     height: 100%;
-    width: 20vw;
+    width: 38vw;
     /* background-color: red; */
-    padding: 15vh 5vh;
+    padding: 15vh 0;
 
 }
 footer #second-foot ul{
@@ -219,7 +220,7 @@ footer #second-foot ul li #link-underline{
 } */
 footer #third-foot{
     height: 100%;
-    width: 20vw;
+    width: 15vw;
     /* background-color: red; */
     padding: 15vh 5vh;
 
@@ -242,7 +243,7 @@ footer #third-foot ul i{
 }
 footer #fourth-foot{
     height: 100%;
-    width: 20vw;
+    width: 10vw;
     background-color: red;
     padding: 15vh 5vh;
 
