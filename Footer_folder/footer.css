@@ -131,7 +131,7 @@ footer #first-foot #follow-us #social-media{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    align-self: center;
+    /* align-self: center;  */
     overflow: hidden;
     /* background-color: red; */
 }
@@ -143,11 +143,11 @@ footer #first-foot #follow-us #social-media div{
     flex-direction: column;
     justify-content: space-between;
     transition: all ease .4s;
-    transition-delay: .2s;
+    transition-delay: .1s;
 }
 
 footer #first-foot #follow-us #social-media div:hover {
-    transform: translateY(-25px);
+    transform: translateY(-22px);
 }
 
 footer #first-foot #follow-us #social-media i{
@@ -155,12 +155,12 @@ footer #first-foot #follow-us #social-media i{
     font-size: 18px;
     cursor: pointer;
     transform-origin: 50% 50%;
+    margin-bottom: 2px;
     /* background-color: blue; */
     padding: 2px;
 }
 footer #first-foot #follow-us #social-media img{
     width: 20px;
-    margin-top: 3px;
     cursor: pointer;
     height: auto;
     /* transform-origin: 50% 50%; */
