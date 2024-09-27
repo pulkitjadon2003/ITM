@@ -11,7 +11,7 @@ body {
 }
 
 nav {
-  height: 15vh;
+  height: 100px;
   width: 100vw;
   border-bottom: 1px solid rgba(0, 0, 0, 0.368);
   position: relative;
@@ -172,13 +172,14 @@ nav #logo img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: grid;
   grid-row-gap: 10px;
-  width: 220px;
+  width: 192px;
   grid-template-columns: auto;
   z-index: -999;
   padding: 5px;
   margin-top: -1px;
   opacity: 0;
   border-radius: 4px;
+  margin-left: -6.5vw;
 }
 
 #navSec ul li:hover .submenu {

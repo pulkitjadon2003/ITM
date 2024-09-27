@@ -313,7 +313,7 @@
           contact: `
     <div class="contact">
            <div class="contact-details">
-            <img src="/images/arpit.jpeg" alt="image1">
+            <img src="https://www.itmgoi.in/assets2/images/Arpit_Singh.jpg" alt="image1">
              <div>
                  <div class="header">Mr. Arpit Singh Chauhan</div>
             <div class="sub-header">(Director TAP CELL I/C)</div>
@@ -340,7 +340,7 @@
         </div>
         <div class="contact">
            <div class="contact-details">
-            <img src="/images/shikha.jpeg" alt="image1">
+            <img src="https://www.itmgoi.in/assets2/images/Shikha_Sharma.jpg" alt="image1">
              <div>
                  <div class="header">Mrs. Shikha Sharma
                  </div>
@@ -368,7 +368,7 @@
         </div>
         <div class="contact">
         <div class="contact-details">
-         <img src="/images/tania.jpeg" alt="image1">
+         <img src="https://www.itmgoi.in/assets2/images/Tania_das.jpg" alt="image1">
           <div>
               <div class="header">Ms. Tania Das
               </div>
