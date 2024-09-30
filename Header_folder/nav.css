@@ -157,7 +157,7 @@ nav #logo img {
   height: 100%;
 }
 #navSec ul li a:hover    {
-  background-color: #ffc400;
+  background-color: #ffc400  !important ;
 }
 
 #navSec #outer-ul #home:hover{
@@ -190,7 +190,6 @@ nav #logo img {
 #navSec ul .submenu li {
   margin: 0;
   width: 100%;
-  display: inline;
   transition: all ease .2s;
 }
 
@@ -220,14 +219,17 @@ nav #logo img {
 }
 #navSec ul .submenu>li:hover{
   background-color: #ffc400;
+}
 
+#navSec ul>li:hover{
+  background-color: #ffc400;
 }
 
 
 #navSec ul .submenu2 li {
   margin: 0;
   width: 100%;
-  display: inline;
+  /* display: inline; */
 }
 
 #navSec ul .submenu2 li a {
