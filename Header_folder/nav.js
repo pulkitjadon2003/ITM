@@ -5,7 +5,7 @@ list.forEach((e) => {
   e.addEventListener("mouseenter", () => {
     submenu1.forEach((submenu) => {
       submenu.style.gridTemplateColumns = "auto auto";
-      submenu.style.width = "380px"
+      submenu.style.width = "330px"
     });
   });
 });
