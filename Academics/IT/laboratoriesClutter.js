@@ -1,10 +1,10 @@
 let main = document.querySelector('.content')
 
 let content = [{heading:'Ground Floor Lab, Neumon Block',description:'One of the lab in Neumon Block',onclick:'https://www.itmgoi.in/',img:'./images/CSE_Lab1.jpg'},
-    {heading:'Ground Floor Lab, Neumon Block',description:'One of the lab in Neumon Block',onclick:'https://www.itmgoi.in/',img:'./images/CSE_Lab1.jpg'},
-    {heading:'Ground Floor Lab, Neumon Block',description:'One of the lab in Neumon Block',onclick:'https://www.itmgoi.in/',img:'./images/CSE_Lab1.jpg'},
-    {heading:'Ground Floor Lab, Neumon Block',description:'One of the lab in Neumon Block',onclick:'https://www.itmgoi.in/',img:'./images/CSE_Lab1.jpg'},
-    {heading:'Ground Floor Lab, Neumon Block',description:'One of the lab in Neumon Block',onclick:'https://www.itmgoi.in/',img:'./images/CSE_Lab1.jpg'},
+    {heading:'Data Structure Lab, Neumon Block',description:'One of the lab in Neumon Block',onclick:'https://www.itmgoi.in/',img:'./images/DSA Lab.jpg'},
+    {heading:'Operating System Lab, Neumon Block',description:'One of the lab in Neumon Block',onclick:'https://www.itmgoi.in/',img:'./images/OS Lab.jpg'},
+    {heading:'Project Lab, Neumon Block',description:'One of the lab in Neumon Block',onclick:'https://www.itmgoi.in/',img:'./images/Project Lab1.jpg'},
+    {heading:'First Floor Lab, Neumon Block',description:'One of the lab in Neumon Block',onclick:'https://www.itmgoi.in/',img:'./images/FFL.jpg'},
 ]
 
 let data = ''

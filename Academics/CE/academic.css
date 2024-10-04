@@ -13,12 +13,12 @@ body {
 }
 
 #main{
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     position: relative;
 }
 #img {
-    height: 40vh;
+    height: 45vh;
     width: 100vw;
     position: relative;
   }
@@ -26,7 +26,7 @@ body {
   #img img {
     height: 100%;
     width: 100%;
-    object-fit: fill;
+    object-fit: cover;
     object-position: center;
   }
   
@@ -51,7 +51,7 @@ body {
   
   #nameDiv h2 {
     padding-top: 5%;
-    font-size: 40px;
+    font-size: 2.5vmax;
     text-align: center;
     color: black;
     height: 100%;
@@ -60,8 +60,7 @@ body {
   }
 
 .container {
-    
-    height: 120vh;
+    height: 100vh;
     width: 85vw;
     display: flex;
     margin: 60px auto;
@@ -73,7 +72,7 @@ body {
     background-color: #fff;
     border: 1px solid #ccc;
     padding: 20px;
-    height:100%;
+    min-height:100vh;
 }
 
 .sidebar h2 {
@@ -83,10 +82,15 @@ body {
 }
 
 .menu {
+    height: 90%;
+    overflow-y: scroll;
     display: flex;
     flex-direction: column;
 }
 
+.menu::-webkit-scrollbar{
+    display: none;
+}
 .menu-item {
     padding: 10px 15px;
     border-bottom: 1px solid #ccc;
@@ -102,7 +106,7 @@ body {
 }
 
 .content {
-    height: 100%;
+    min-height: 100%;
     width: 90%;
     padding: 20px;
     background-color: #fff;
@@ -150,10 +154,17 @@ body {
     width: 48%;
 }
 
-.vision h3, .mission h3 {
+.vision h3 {
     font-size: 18px;
     color: rebeccapurple;
     margin-bottom: 10px;
+    font-weight: 750;
+}
+.mission h3 {
+    font-size: 18px;
+    color: #f9f9f9;
+    margin-bottom: 10px;
+    font-weight: 750;
 }
 
 .vision p {
@@ -171,9 +182,12 @@ body {
     content: open-quote;
     font-size: 30px;
     color: rebeccapurple;
-    position: absolute;
-    left: 0;
-    top: -10px;
+
+}
+.vision p::after {
+    content: close-quote;
+    font-size: 30px;
+    color: rebeccapurple;
 }
 .mission{
     background-color: #ac80e3;
@@ -220,11 +234,28 @@ th {
     color: white; /* White text color */
 }
 tbody>tr{
-    height: 12vh !important;
+    height: 12vh ;
 }
 tr:nth-child(even) {
     background-color: white; /* White background for even rows */
 }
 tr:nth-child(odd) {
     background-color: #f2f2f2; /* Light gray background for odd rows */
+}
+
+
+#chairmanImg{
+    height: 40vh;
+    width: 24vh;
+    object-fit: cover;
+    object-position: center;
+    right: 8%;
+    position: absolute;
+}
+
+section #headtext{
+    position: absolute;
+    right: 7%;
+    width: 24vh;
+    top: 53vh;
 }
