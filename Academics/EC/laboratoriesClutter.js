@@ -1,19 +1,10 @@
 let main = document.querySelector('.content')
 
-let content = [
-    {heading:'DIGITAL COMMUNICATION LAB/ ANALOG COMMUNICATION LAB',description:'One of the lab in Neumon Block',onclick:'https://www.itmgoi.in/',img:'./images/Picture2.jpg'},
-    {heading:'DIGITAL SIGNAL PROCESSING LAB',description:'One of the lab in Neumon Block',onclick:'https://www.itmgoi.in/',img:'./images/Picture1.jpg'},
-    {heading:'ELECTRONICS CIRCUITS LAB',description:'One of the lab in Neumon Block',onclick:'https://www.itmgoi.in/',img:'./images/Picture2.jpg'},
-    {heading:'ANALOG CIRCUITS LAB',description:'One of the lab in Neumon Block',onclick:'https://www.itmgoi.in/',img:'./images/Picture8.jpg'},
-    {heading:'MINI PROJECT LAB',description:'One of the lab in Neumon Block',onclick:'https://www.itmgoi.in/',img:'./images/Picture3.jpg'},
-    {heading:'OPTICAL COMMUNICATION LAB',description:'One of the lab in Neumon Block',onclick:'https://www.itmgoi.in/',img:'./images/Picture4.jpg'},
-    {heading:'DIGITAL ELECTRONICS LAB',description:'One of the lab in Neumon Block',onclick:'https://www.itmgoi.in/',img:'./images/Picture7.jpg'},
-    {heading:'MICROPROCESSOR AND MICRO CONTROLLER LAB',description:'One of the lab in Neumon Block',onclick:'https://www.itmgoi.in/',img:'./images/Picture.jpg'},
-    {heading:'MICROWAVE & ANTENNA ENGINEERING LAB',description:'One of the lab in Neumon Block',onclick:'https://www.itmgoi.in/',img:'./images/Picture5.jpg'},
-    {heading:'VLSI LAB',description:'One of the lab in Neumon Block',onclick:'https://www.itmgoi.in/',img:'./images/Picture6.jpg'},
-    {heading:'ELECTRONIC MEASUREMENT & INSTRUMENTATION LAB',description:'One of the lab in Neumon Block',onclick:'https://www.itmgoi.in/',img:''},
-    {heading:'PCB DESIGN LAB',description:'One of the lab in Neumon Block',onclick:'https://www.itmgoi.in/',img:'./images/Picture9.jpg'},
-
+let content = [{heading:'Ground Floor Lab, Neumon Block',description:'One of the lab in Neumon Block',onclick:'https://www.itmgoi.in/',img:'./images/CSE_Lab1.jpg'},
+    {heading:'Data Structure Lab, Neumon Block',description:'One of the lab in Neumon Block',onclick:'https://www.itmgoi.in/',img:'./images/DSA Lab.jpg'},
+    {heading:'Operating System Lab, Neumon Block',description:'One of the lab in Neumon Block',onclick:'https://www.itmgoi.in/',img:'./images/OS Lab.jpg'},
+    {heading:'Project Lab, Neumon Block',description:'One of the lab in Neumon Block',onclick:'https://www.itmgoi.in/',img:'./images/Project Lab1.jpg'},
+    {heading:'First Floor Lab, Neumon Block',description:'One of the lab in Neumon Block',onclick:'https://www.itmgoi.in/',img:'./images/FFL.jpg'},
 ]
 
 let data = ''

@@ -5,6 +5,9 @@ document.addEventListener('DOMContentLoaded', function () {
             document.querySelector('.sidebar').innerHTML = data
             changeActivePage()
         });
+
+        document.title = "Department of Computer Science and Engineering"
+        document.querySelector('#nameDiv h2').innerHTML = 'Department of Computer Science and Engineering '
 });
 
 function changeActivePage(params) {

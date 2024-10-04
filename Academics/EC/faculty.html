@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Department Of Electronics & Communication Engineering</title>
+    <title>Department of Computer Science and Engineering</title>
+
     <script src="script.js"></script>
 
     <style>
@@ -23,16 +24,19 @@
 
         th, td {
             padding: 12px 15px;
-            text-align: center;
+            text-align: left;
+            
         }
 
+
+        
         th {
             background-color: #007BFF;
             color: #ffffff;
             font-weight: bold;
         }
         tr td{
-            text-align: center  ;
+            text-align: left  ;
         }
 
         tr:nth-child(even) {
@@ -45,14 +49,22 @@
 
         th, td {
             border-bottom: 1px solid #dddddd;
+            text-align: left;
         }
 
         th:first-child, td:first-child {
             border-left: 1px solid #dddddd;
         }
+        th:nth-last-child(4th), td:last-child {
+            border-right: 1px solid #dddddd;
+            text-align: center;
+            background-color: rgb(153, 51, 59);
+        }
+
 
         th:last-child, td:last-child {
             border-right: 1px solid #dddddd;
+            text-align: center;
         }
 
         caption {
@@ -64,6 +76,8 @@
     </style>
     <link rel="stylesheet" href="academic.css">
     <script src="/nav-enable.js"></script>
+    <script src="addSidebar.js"></script>
+
 </head>
 <body>
     <div id="nav-container"></div>
@@ -71,32 +85,14 @@
     <div id="img">
         <img src="../dunedin-university-of.jpg" alt="">
         <div id="nameDiv">
-            <h2>Department Of Electronics & Communication Engineering</h2>
+            <h2>Department of Computer Science and Engineering</h2>
             <div id="line"></div>
 
         </div>
     </div>
     <div class="container">
         <aside class="sidebar">
-            <h2>Department Of Electronics & Communication Engineering</h2>
-            <div class="menu">
-                <div class="menu-item " onclick="loadPage('about.html')">About Civil Engineering</div>
-                <div class="menu-item" onclick="loadPage('programmes.html')">Programmes Offered</div>
-                <div class="menu-item active" onclick="loadPage('faculty.html')">Faculty Profiles</div>
-                <div class="menu-item" onclick="loadPage('laboratories.html')">Laboratories</div>
-                <div class="menu-item" onclick="loadPage('supporting-staff.html')">Supporting Staff</div>
-                <div class="menu-item" onclick="loadPage('schemes.html')">Schemes</div>
-                <div class="menu-item" onclick="loadPage('syllabus.html')">Syllabus</div>
-                <div class="menu-item" onclick="loadPage('timetable.html')">Time Table</div>
-                <div class="menu-item" onclick="loadPage('DepartmentalCommittees.html')">Departmental Committees</div>
-                <div class="menu-item" onclick="loadPage('DepartmentEvents.html')">Departmental Events</div>
-                <div class="menu-item" onclick="loadPage('ResearchAreas.html')">Research Areas</div>
-                <div class="menu-item" onclick="loadPage('ResearchPublication.html')">Research Pubications</div>
-                <div class="menu-item" onclick="loadPage('feedback.html')">Feedback</div>
-                <div class="menu-item" onclick="loadPage('achievements.html')">Achievement</div>     
-                <div class="menu-item" onclick="loadPage('gallery.html')">Gallery</div>
-                <div class="menu-item" onclick="loadPage('contact.html')">Contact</div>
-            </div>  
+            
         </aside>
         <main class="content">
     <table>
@@ -104,11 +100,11 @@
         <thead>
             <tr>
                 <th>S.No.</th>
-                <th>Name of the Faculty Member</th>
-                <th>Qualification</th>
+                <th >Name of the Faculty Member</th>
+                <th >Qualification</th>
                 <th>Designation</th>
-                <th>Joining Date</th>
-                <th>Nature of Association (Regular/Contract/Adjunct)</th>
+                <th >Joining Date</th>
+                <th >Nature of Association </th>
             </tr>
         </thead>
         <tbody>
@@ -117,7 +113,7 @@
                 <td>Dr.Rishi Soni</td>
                 <td>Ph.D</td>
                 <td>Professor</td>
-                <td>02-07-2018</td>
+                <td>02-07-18</td>
                 <td>Regular</td>
             </tr>
             <tr>
