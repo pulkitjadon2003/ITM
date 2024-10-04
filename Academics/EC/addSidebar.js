@@ -1,10 +1,13 @@
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('/Academics/CSE/sidebar.html')
+    fetch('/Academics/EC/sidebar.html')
         .then(response => response.text())
         .then(data => {
             document.querySelector('.sidebar').innerHTML = data
             changeActivePage()
         });
+
+    document.title = "Department of Electronics Communication Engineering"
+    document.querySelector('#nameDiv h2').innerHTML = 'Department of Electronics Communication Engineering'
 });
 
 function changeActivePage(params) {
