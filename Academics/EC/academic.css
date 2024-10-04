@@ -216,7 +216,7 @@ body {
 table {
     width:100%;
     border-collapse: collapse;
-    height: 100vh;
+    max-height: 100vh;
 }
 th, td {
     padding: 10px;
@@ -228,7 +228,7 @@ th {
     color: white; /* White text color */
 }
 tbody>tr{
-    height: 12vh ;
+    /* height: 12vh ; */
 }
 tr:nth-child(even) {
     background-color: white; /* White background for even rows */
