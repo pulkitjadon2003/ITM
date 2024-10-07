@@ -6,9 +6,9 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
   background-color: #f9f9f9;
   overflow-x: hidden;
+
 }
 #img{
     height: 55vh;
@@ -54,16 +54,18 @@ body {
 
 .container {
   display: flex;
+  padding-left: 6%;
 }
 
 .sidebar {
-  width: 20%;
-  background-color: #f0f0f0;
+  width: 23%;
+  background-color:#fff;
   padding: 20px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-  height: fit-content;
+  height: 105vh;
   margin: 40px 10px;
   border-radius: 10px;
+
 }
 
 .sidebar ul {
@@ -80,18 +82,21 @@ body {
   color: #333;
   display: block;
   padding: 10px;
-  border-radius: 4px;
+  /* border-radius: 4px; */
   transition: background-color 0.3s ease;
   cursor: pointer;
+  border-bottom: 1px solid #ccc;
 }
 .sidebar ul li a {
   text-decoration: none;
   color: #333;
   display: block;
   padding: 10px;
-  border-radius: 4px;
+  /* border-radius: 4px; */
   transition: background-color 0.3s ease;
   cursor: pointer;
+  border-bottom: 1px solid #ccc;
+
 }
 
 .sidebar ul li p.active,
@@ -106,10 +111,8 @@ body {
   width: 100%;
 }
 
-.content {
-  width: 80%;
-  padding: 20px;
-}
+
+
 
 .header-image {
   background-color: #1a73e8;
@@ -121,21 +124,22 @@ body {
 }
 
 .content-text p {
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   line-height: 1.6;
   color: #333;
 }
 .para{
-  background-color: #dadada41;
+  /* background-color: #dadada41; */
   padding: 20px;
   border-radius: 5px;
   transition: all 0.4s;
+  
 }
-.para:hover{
+/* .para:hover{
   transform: scale(1.01);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
-}
+} */
 /* Alumni info container */
 .alumni-info {
   width: 90%;
@@ -218,6 +222,7 @@ button:hover {
 .collage-item1 {
   grid-column: 1 / span 2;
   grid-row: 1 / span 2;
+  
 }
 
 .collage-item2 {
@@ -256,10 +261,10 @@ button:hover {
 }
 
 /* Hover effect */
-.collage-container img:hover {
+/* .collage-container img:hover {
   transform: scale(1.1);
   opacity: 0.9;
-}
+} */
 
 .card-container-speak {
   width: 95%;
@@ -268,10 +273,10 @@ button:hover {
   margin-bottom: 15px;
   transition: 0.4s;
 }
-.card-container-speak:hover {
+/* .card-container-speak:hover {
   transform: scale(1.01);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
+} */
 
 .card-speak {
   width: 100%;
@@ -382,27 +387,35 @@ button:hover {
         font-weight: 600;
         color: #503091;
       }
+      .achieve{
+        padding: 30px;
+        height: 100%;
+        width: 100%;
+        position: relative;
+
+
+      }
       .achieve img{
         /* background-image: url(./image/Alumni-Noticed.jpg); */
         /* object-fit: cover; */
-        width: 75%;
+        width: 100%;
         height: 90%;
         text-align: center;
-        /* margin-bottom: 30px; */
-        position: absolute;
-        top: 90%;
-        left: 22.5%;
+       padding-top: 10%;
+        object-fit: cover;
+        object-position: center;
       }
 
       .content {
-        min-height: 100%;
-        width: 90%;
-        padding: 20px;
+        height: 105vh;
+        width: 65%;
         background-color: #fff;
-        border: 1px solid #ccc;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        /* border: 1px solid #ccc; */
         margin-left: 20px;
         overflow-y: auto;
         overflow-x: hidden;
+        margin-top: 40px;
     }
     
     .content h2 {

@@ -349,7 +349,7 @@ The institute’s alumni network is one of its strongest assets, creating a bond
 
       `,
       back:`
-      <div class="content">
+      <div class="chapters">
                 
                 <h2>Alumni Engagement:</h2>
                 <p>The ITM Alumni Association (ITMAA) is a registered alumni association that actively contributes to the development of the institution through various forms of support, including financial contributions and other services. Formally registered on March 12th, 2021, under the Madhya Pradesh Societies Registration Act, 1973, with registration certificate No. 02/42/01/25050/21, ITMAA operates within a legally recognized framework governed by predefined rules and regulations outlined in its byelaws.
