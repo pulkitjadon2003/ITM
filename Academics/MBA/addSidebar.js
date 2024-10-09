@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('/Academics/CSE/sidebar.html')
+    fetch('/Academics/MBA/sidebar.html')
         .then(response => response.text())
         .then(data => {
             document.querySelector('.sidebar').innerHTML = data

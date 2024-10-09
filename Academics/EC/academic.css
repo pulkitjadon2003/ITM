@@ -227,9 +227,7 @@ th {
     background-color: rebeccapurple; /* Pink header background */
     color: white; /* White text color */
 }
-tbody>tr{
-    /* height: 12vh ; */
-}
+
 tr:nth-child(even) {
     background-color: white; /* White background for even rows */
 }

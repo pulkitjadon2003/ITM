@@ -54,12 +54,22 @@ body {
     border-radius: 5px;
     padding: 5px;
     text-transform: uppercase;
+    transition: all ease .3s;
 }
 
 .card:hover p{
   color: #FCB040;
   border: 1px solid #FCB040;
 
+}
+.card a{
+  color: #333;
+  text-decoration: none;
+  transition: all ease .3s;
+}
+.card:hover a{
+  scale: 1.03;
+  color: #FCB040;
 }
 .card:hover img{
   scale: 1.03;
