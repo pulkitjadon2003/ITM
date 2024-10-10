@@ -5,6 +5,9 @@ document.addEventListener('DOMContentLoaded', function () {
             document.querySelector('.sidebar').innerHTML = data
             changeActivePage()
         });
+ let title = 'Department of Master of Business Adminstration'
+ document.title = title
+    document.querySelector('#nameDiv h2').innerHTML = title
 });
 
 function changeActivePage(params) {
