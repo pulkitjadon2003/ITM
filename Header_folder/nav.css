@@ -157,10 +157,10 @@ nav #logo img {
   height: 100%;
 }
 #navSec ul li a:hover    {
-  background-color: #ffc400  !important ;
+  background-color: #ffc400  !important;
 }
 
-#navSec #outer-ul #home:hover{
+#navSec li #home:hover{
   background-color: transparent !important;
 }
 
@@ -221,7 +221,7 @@ nav #logo img {
   background-color: #ffc400;
 }
 
-#navSec ul>li:hover{
+#navSec ul li:hover{
   background-color: #ffc400;
 }
 
