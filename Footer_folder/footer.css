@@ -194,7 +194,7 @@ footer #second-foot ul li::before{
   display: inline-block;
   height: 15px;
   width: 24px;
-  background-image: url('/images/triangle-point-bullet.png');
+  background-image: url('../images/triangle-point-bullet.png');
   background-size: contain;
   background-repeat: no-repeat;
   /* margin-left: -35px; */
