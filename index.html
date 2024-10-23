@@ -17,8 +17,8 @@
         defer></script>
     <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet"
         crossorigin="anonymous">
-        <!-- <link rel="stylesheet" href="../Header_folder/nav.css"> -->
-    <link rel="stylesheet" href="/font.css">
+    <!-- <link rel="stylesheet" href="../Header_folder/nav.css"> -->
+    <link rel="stylesheet" href="font.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="page2.css">
     <link rel="stylesheet" href="page3.css">
@@ -93,27 +93,6 @@
             border-radius: 10px;
         }
     </style>
-    <script>
-       document.addEventListener('DOMContentLoaded', function () {
-            fetch('/Header_folder/nav.html')
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById('nav-container').innerHTML = data;
-                    // Load the nav.js file after the HTML is loaded
-                    let script = document.createElement('script');
-                    script.src = '/Header_folder/nav.js';
-                    document.body.appendChild(script);
-                });
-        });
-        document.addEventListener("DOMContentLoaded", function () {
-            fetch('/Footer_folder/footer.html')  // Load the nav.html file
-                .then(response => response.text()) // Get its content
-                .then(data => {
-                    document.getElementById('footer-container').innerHTML = data; // Insert into the page
-                });
-        });
-
-    </script>
 </head>
 
 <body>
@@ -121,7 +100,7 @@
         <div id="nav-container"></div>
 
         <div id="front-page">
-            <video src="/Videos/Landing-Page-video.mp4" alt="Video not found" autoplay muted loop></video>
+            <video src="./Videos/Landing-Page-video.mp4" alt="Video not found" autoplay muted loop></video>
            <div id="shadow"></div>
             <div id="slider">
 
@@ -202,15 +181,14 @@
                 <div class="content" id="0">
                     <div class="info">
 
-                        <img src="https://res.cloudinary.com/highereducation/images/f_auto,q_auto/v1662131160/ComputerScience.org/GettyImages-533765037_66590e6d/GettyImages-533765037_66590e6d.jpg?_i=AA"
+                        <img src="./images/BTECH Programs.JPG"
                             alt="">
                         <div id="text" class="texts">
                             <h2>
                                 Bachelor of Technology <br>
                                 (B.Tech)
                             </h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos natus
-                                numquam ullam qui aut.</p>
+                            <p></p>
                             <h3>Programs</h3>
                             <ul>
                                 <li>Computer Science Engineering</li>
@@ -233,12 +211,11 @@
                 <div class="content" id="1">
                     <div class="info">
 
-                        <img src="https://res.cloudinary.com/highereducation/images/f_auto,q_auto/v1662131160/ComputerScience.org/GettyImages-533765037_66590e6d/GettyImages-533765037_66590e6d.jpg?_i=AA"
+                        <img src="./images/POST Graduate.JPG"
                             alt="">
                         <div id="text" class="texts">
                             <h2>Post Graduate</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos natus
-                                numquam ullam qui aut.</p>
+                            <p></p>
                             <h3>Programs</h3>
                             <ul>
                                 <li>M.Tech. (CS)</li>
@@ -272,6 +249,145 @@
                         <li>
                             <div class="card shadow h-100">
                                 <div class="ratio ratio-1x1">
+                                    <img src="images/Special Features/Ideapad.png"
+                                        class="card-img-top" loading="lazy" alt="...">
+                                </div>
+                                <div id="details" class="card-body d-flex flex-column flex-md-row">
+                                    <div id="text">
+                                        <h3>Incubation Cell (IDEAPAD) <div id="underline"></div>
+                                        </h3>
+                                        <p>Incubates companies with products, processes
+                                            and/or services that are the result of scientific
+                                            research and represent a high combined value. For
+                                            example biotechnology, informatics, and electronics
+                                            companies, among others</p>
+                                        <span>Know More <img src="./images/triangle-point-bullet.png" alt=""></span>
+                                    </div>
+                                </div>
+                                <div id="feature-heading"><h2>Incubation Cell (IDEAPAD)</h2></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="card shadow h-100">
+                                <div class="ratio ratio-1x1">
+                                    <img src="images/Special Features/Placement.png"
+                                        class="card-img-top" loading="lazy" alt="...">
+                                </div>
+                                <div id="details" class="card-body d-flex flex-column flex-md-row">
+                                    <div id="text">
+                                        <h3>Placements <div id="underline"></div>
+                                        </h3>
+                                        <p>Arranging training programs with the help of Industries
+                                            on the skill sets required to succeed in placement
+                                            
+                                            interviews. After detailed discussion with project co-
+                                            ordinators of different departments, professionals
+                                            
+                                            from Industries and senior academicians,</p>
+                                        <span>Know More <img src="./images/triangle-point-bullet.png" alt=""></span>
+                                    </div>
+                                </div>
+                                <div id="feature-heading"><h2>Placements</h2></div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="card shadow h-100">
+                                <div class="ratio ratio-1x1">
+                                    <img src="images/Special Features/Augmentation Programs.png"
+                                        class="card-img-top" loading="lazy" alt="...">
+                                </div>
+                                <div id="details" class="card-body d-flex flex-column flex-md-row">
+                                    <div id="text">
+                                        <h3>Augmentation Programs <div id="underline"></div>
+                                        </h3>
+                                        <p>The Institute has introduced a rare model of involving
+                                            the students in process from selection of industry to
+                                            execution of complete program. This adds immensely
+                                            to the managerial & professional skills development of
+                                            students and transparency in the complete process.</p>
+                                        <span>Know More <img src="./images/triangle-point-bullet.png" alt=""></span>
+                                    </div>
+                                </div>
+                            </div>
+                                <div id="feature-heading"><h2>Augmentation Programs</h2></div>
+
+                        </li>
+
+
+                        <li>
+                            <div class="card shadow h-100">
+                                <div class="ratio ratio-1x1">
+                                    <img src="images/Special Features/alumni speaks.png"
+                                        class="card-img-top" loading="lazy" alt="...">
+                                </div>
+                                <div id="details" class="card-body d-flex flex-column flex-md-row">
+                                    <div id="text">
+                                        <h3>Alumni Speaks <div id="underline"></div>
+                                        </h3>
+                                        <p>Our alumni help us strengthen academic programmes,
+                                            develop first-rate facilities and resources, support
+                                            outstanding faculty and enrich the student experience.</p>
+                                        <span>Know More <img src="./images/triangle-point-bullet.png" alt=""></span>
+                                    </div>
+                                </div>
+                            </div>
+                                <div id="feature-heading"><h2>Alumni Speaks</h2></div>
+
+                        </li>
+
+
+                        <li>
+                            <div class="card shadow h-100">
+                                <div class="ratio ratio-1x1">
+                                    <img src="images/Special Features/Indrustries Speaks.png"
+                                        class="card-img-top" loading="lazy" alt="...">
+                                </div>
+                                <div id="details" class="card-body d-flex flex-column flex-md-row">
+                                    <div id="text">
+                                        <h3>Industries Speaks <div id="underline"></div>
+                                        </h3>
+                                        <p>Leading entrepreneurs & top ranking corporate leaders visit
+                                            the campus periodically & conduct workshops on various
+                                            recent & industry specific topics. Students interaction with
+                                            these personalities impart certain pointers which help them
+                                            in their professional life to come.</p>
+                                        <span>Know More <img src="./images/triangle-point-bullet.png" alt=""></span>
+                                    </div>
+                                </div>
+                            </div>
+                                <div id="feature-heading"><h2>Industries Speaks</h2></div>
+
+                        </li>
+
+                        <li>
+                            <div class="card shadow h-100">
+                                <div class="ratio ratio-1x1">
+                                    <img src="images/Special Features/Kronos.png"
+                                        class="card-img-top" loading="lazy" alt="...">
+                                </div>
+                                <div id="details" class="card-body d-flex flex-column flex-md-row">
+                                    <div id="text">
+                                        <h3>KRONOS <div id="underline"></div>
+                                        </h3>
+                                        <p>KRONOS, the annual techno-cultural youth festival of ITM Gwalior turned out to be
+                                            better, larger and greener than its previous versions. KRONOS, from its incipient
+                                            days has been created solely for the students. It gives an opportunity to the
+                                            students to explore the talents within them, showcase them in front of the
+                                            masses and then excel with flying colours.</p>
+                                        <span>Know More <img src="./images/triangle-point-bullet.png" alt=""></span>
+                                    </div>
+                                </div>
+                            </div>
+                                <div id="feature-heading"><h2>KRONOS</h2></div>
+
+                        </li>
+<!-- 
+                        <li>
+                            <div class="card shadow h-100">
+                                <div class="ratio ratio-1x1">
                                     <img src="https://img.freepik.com/free-photo/people-practicing-social-integration-workspace_23-2149405380.jpg"
                                         class="card-img-top" loading="lazy" alt="...">
                                 </div>
@@ -284,8 +400,9 @@
                                         <span>Know More <img src="./images/triangle-point-bullet.png" alt=""></span>
                                     </div>
                                 </div>
-                                <div id="feature-heading"><h2>Incubation</h2></div>
                             </div>
+                                <div id="feature-heading"><h2>Incubation</h2></div>
+
                         </li>
 
                         <li>
@@ -303,132 +420,10 @@
                                         <span>Know More <img src="./images/triangle-point-bullet.png" alt=""></span>
                                     </div>
                                 </div>
-                                <div id="feature-heading"><h2>Incubation</h2></div>
-
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="card shadow h-100">
-                                <div class="ratio ratio-1x1">
-                                    <img src="https://img.freepik.com/free-photo/people-practicing-social-integration-workspace_23-2149405380.jpg"
-                                        class="card-img-top" loading="lazy" alt="...">
-                                </div>
-                                <div id="details" class="card-body d-flex flex-column flex-md-row">
-                                    <div id="text">
-                                        <h3>Incubation <div id="underline"></div>
-                                        </h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptas rem
-                                            est voluptates nulla aliquid, consequuntur nisi quia minus eum!</p>
-                                        <span>Know More <img src="./images/triangle-point-bullet.png" alt=""></span>
-                                    </div>
-                                </div>
                             </div>
                                 <div id="feature-heading"><h2>Incubation</h2></div>
 
-                        </li>
-
-
-                        <li>
-                            <div class="card shadow h-100">
-                                <div class="ratio ratio-1x1">
-                                    <img src="https://img.freepik.com/free-photo/people-practicing-social-integration-workspace_23-2149405380.jpg"
-                                        class="card-img-top" loading="lazy" alt="...">
-                                </div>
-                                <div id="details" class="card-body d-flex flex-column flex-md-row">
-                                    <div id="text">
-                                        <h3>Incubation <div id="underline"></div>
-                                        </h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptas rem
-                                            est voluptates nulla aliquid, consequuntur nisi quia minus eum!</p>
-                                        <span>Know More <img src="./images/triangle-point-bullet.png" alt=""></span>
-                                    </div>
-                                </div>
-                            </div>
-                                <div id="feature-heading"><h2>Incubation</h2></div>
-
-                        </li>
-
-
-                        <li>
-                            <div class="card shadow h-100">
-                                <div class="ratio ratio-1x1">
-                                    <img src="https://img.freepik.com/free-photo/people-practicing-social-integration-workspace_23-2149405380.jpg"
-                                        class="card-img-top" loading="lazy" alt="...">
-                                </div>
-                                <div id="details" class="card-body d-flex flex-column flex-md-row">
-                                    <div id="text">
-                                        <h3>Incubation <div id="underline"></div>
-                                        </h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptas rem
-                                            est voluptates nulla aliquid, consequuntur nisi quia minus eum!</p>
-                                        <span>Know More <img src="./images/triangle-point-bullet.png" alt=""></span>
-                                    </div>
-                                </div>
-                            </div>
-                                <div id="feature-heading"><h2>Incubation</h2></div>
-
-                        </li>
-
-                        <li>
-                            <div class="card shadow h-100">
-                                <div class="ratio ratio-1x1">
-                                    <img src="https://img.freepik.com/free-photo/people-practicing-social-integration-workspace_23-2149405380.jpg"
-                                        class="card-img-top" loading="lazy" alt="...">
-                                </div>
-                                <div id="details" class="card-body d-flex flex-column flex-md-row">
-                                    <div id="text">
-                                        <h3>Incubation <div id="underline"></div>
-                                        </h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptas rem
-                                            est voluptates nulla aliquid, consequuntur nisi quia minus eum!</p>
-                                        <span>Know More <img src="./images/triangle-point-bullet.png" alt=""></span>
-                                    </div>
-                                </div>
-                            </div>
-                                <div id="feature-heading"><h2>Incubation</h2></div>
-
-                        </li>
-
-                        <li>
-                            <div class="card shadow h-100">
-                                <div class="ratio ratio-1x1">
-                                    <img src="https://img.freepik.com/free-photo/people-practicing-social-integration-workspace_23-2149405380.jpg"
-                                        class="card-img-top" loading="lazy" alt="...">
-                                </div>
-                                <div id="details" class="card-body d-flex flex-column flex-md-row">
-                                    <div id="text">
-                                        <h3>Incubation <div id="underline"></div>
-                                        </h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptas rem
-                                            est voluptates nulla aliquid, consequuntur nisi quia minus eum!</p>
-                                        <span>Know More <img src="./images/triangle-point-bullet.png" alt=""></span>
-                                    </div>
-                                </div>
-                            </div>
-                                <div id="feature-heading"><h2>Incubation</h2></div>
-
-                        </li>
-
-                        <li>
-                            <div class="card shadow h-100">
-                                <div class="ratio ratio-1x1">
-                                    <img src="https://img.freepik.com/free-photo/people-practicing-social-integration-workspace_23-2149405380.jpg"
-                                        class="card-img-top" loading="lazy" alt="...">
-                                </div>
-                                <div id="details" class="card-body d-flex flex-column flex-md-row">
-                                    <div id="text">
-                                        <h3>Incubation <div id="underline"></div>
-                                        </h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptas rem
-                                            est voluptates nulla aliquid, consequuntur nisi quia minus eum!</p>
-                                        <span>Know More <img src="./images/triangle-point-bullet.png" alt=""></span>
-                                    </div>
-                                </div>
-                            </div>
-                                <div id="feature-heading"><h2>Incubation</h2></div>
-
-                        </li>
+                        </li> -->
 
                     </ul>
 
@@ -445,14 +440,14 @@
                 class="swiffy-slider slider-item-show5 slider-nav-outside slider-nav-dark slider-nav-sm slider-nav-visible slider-nav-page slider-item-snapstart slider-nav-autoplay slider-nav-autopause slider-item-ratio slider-item-ratio-contain slider-item-ratio-32x28 bg-white shadow-lg py-3 py-lg-4"
                 data-slider-nav-autoplay-interval="3000">
                 <div class="slider-container">
-                    <div class="training"><img src="/images/TrainingLogo/Microsoft Acadamy logo.png" alt="..."></div>
-                    <div class="training"><img src="/images/TrainingLogo/awsaclogo.png" alt="..."></div>
-                    <div class="training"><img src="/images/TrainingLogo/Bajaj Finserv.png" alt="..."></div>
-                    <div class="training"><img src="/images/TrainingLogo/Certiport.png" alt="..."></div>
-                    <div class="training"><img src="/images/TrainingLogo/MentorKart.png" alt="..."></div>
-                    <div class="training"><img src="/images/TrainingLogo/xtrude.jpeg" alt="..."></div>
-                    <div class="training"><img src="/images/TrainingLogo/IndiaBlockchainAlliance.png" alt="..."></div>
-                    <div class="training"><img src="/images/TrainingLogo/Skill Academy.png" alt="..."></div>
+                    <div class="training"><img src="images/TrainingLogo/Microsoft Acadamy logo.png" alt="..."></div>
+                    <div class="training"><img src="images/TrainingLogo/awsaclogo.png" alt="..."></div>
+                    <div class="training"><img src="images/TrainingLogo/Bajaj Finserv.png" alt="..."></div>
+                    <div class="training"><img src="images/TrainingLogo/Certiport.png" alt="..."></div>
+                    <div class="training"><img src="images/TrainingLogo/MentorKart.png" alt="..."></div>
+                    <div class="training"><img src="images/TrainingLogo/xtrude.jpeg" alt="..."></div>
+                    <div class="training"><img src="images/TrainingLogo/IndiaBlockchainAlliance.png" alt="..."></div>
+                    <div class="training"><img src="images/TrainingLogo/Skill Academy.png" alt="..."></div>
                 </div>
                 <button type="button" class="slider-nav" aria-label="Go left"></button>
          <button type="button" class="slider-nav slider-nav-next" aria-label="Go left"></button>
@@ -472,46 +467,46 @@
                     <div class="page5-slide">
                         <div class="page5-text">
                             <div class="inner-text">
-                                <p>Text for Slide 1</p>
+                                <p></p>
                             </div>
                         </div>
-                        <img src="/CollegeImages/DSC_2286.JPG" alt="Image 1">
+                        <img src="./CollegeImages/DSC_2286.JPG" alt="Image 1">
                     </div>
                     <div class="page5-slide">
-                        <img src="/CollegeImages/DSC_2295.JPG" alt="Image 2">
+                        <img src="./CollegeImages/DSC_2295.JPG" alt="Image 2">
                         <div class="page5-text">
                             <div class="inner-text">
-                               <p>Text for Slide 2</p>
+                               <p></p>
                             </div>
                         </div>
                     </div>
                     <div class="page5-slide">
                         <div class="page5-text3">
-                            <p>Text for Slide 3</p>
-                            <img id="page5-img3" src="/CollegeImages/DSC_2298.JPG" alt="Image 3">
+                            <p></p>
+                            <img id="page5-img3" src="./CollegeImages/DSC_2298.JPG" alt="Image 3">
                         </div>
 
                     </div>
                     <div class="page5-slide">
                         <div class="page5-text">
                             <div class="inner-text">
-                                <p>Text for Slide 4</p>
+                                <p></p>
                             </div>
                         </div>
-                        <img src="/CollegeImages/DSC_2353.JPG" alt="Image 1">
+                        <img src="./CollegeImages/DSC_2353.JPG" alt="Image 1">
                     </div>
                     <div class="page5-slide">
-                        <img src="/CollegeImages/DSC_2286.JPG" alt="Image 2">
+                        <img src="./CollegeImages/DSC_2286.JPG" alt="Image 2">
                         <div class="page5-text">
                             <div class="inner-text">
-                                <p>Text for Slide 5</p>
+                                <p></p>
                             </div>
                         </div>
                     </div>
                     <div class="page5-slide">
                         <div class="page5-text3">
-                            <p>Text for Slide 6</p>
-                            <img id="page5-img3" src="/CollegeImages/DSC_2295.JPG" alt="Image 3">
+                            <p>     </p>
+                            <img id="page5-img3" src="./CollegeImages/DSC_2295.JPG" alt="Image 3">
                         </div>
 
                     </div>
@@ -530,15 +525,39 @@
                 data-slider-nav-autoplay-interval="3000"
                 style="padding: 0 12px;">
                 <div class="slider-container">
-                    <div class="coporate"><img src="./images/AICTE-Logo-250x250-1.webp" alt="..."></div>
-                    <div class="coporate"><img src="./images/Jiwaji University.webp" alt="..."></div>
-                    <div class="coporate"><img src="./images/csi-logo.png" alt="..."></div>
-                    <div class="coporate"><img src="./images/IEEE.png" alt="..."></div>
-                    <div class="coporate"><img src="./images/Mp govt.png" alt="..."></div>
-                    <div class="coporate"><img src="./images/National_Board_of_Accreditation.svg.png" alt="..."></div>
-                    <div class="coporate"><img src="./images/NCC.png" alt="..."></div>
-                    <div class="coporate"><img src="./images/NSS.png" alt="..."></div>
-                    <div class="coporate"><img src="./images/RGPV.png" alt="..."></div>
+                    <div class="coporate"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAQIbXml7Pb5D2-Qr879C7C38ck7qirxkOMQ&s" alt="..."></div>
+                    <div class="coporate"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Infosys_logo.svg/1200px-Infosys_logo.svg.png" alt="..."></div>
+                    <div class="coporate"><img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Deloitte_Logo.png" alt="..."></div>
+                    <div class="coporate"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPBss61ZSzmBM75JqdYCVqsfqJ4JijX0mt9g&s" alt="..."></div>
+                    <div class="coporate"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsOev-NyWHSnM89sc6SV5AqCEvLp3OYaMuBw&s" alt="..."></div>
+                    <div class="coporate"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Capgemini_201x_logo.svg" alt="..."></div>
+                    <div class="coporate"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HP_logo_2012.svg/2048px-HP_logo_2012.svg.png" alt="..."></div>
+                    <div class="coporate"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Wipro_Primary_Logo_Color_RGB.svg" alt="..."></div>
+                    <div class="coporate"><img src="https://1000logos.net/wp-content/uploads/2021/08/Xiaomi-logo.png" alt="..."></div>
+                    <div class="coporate"><img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Impetus_logo.png" alt="..."></div>
+                    <div class="coporate"><img src="https://images.crowdspring.com/blog/wp-content/uploads/2023/07/03162944/amazon-logo-1.png" alt="..."></div>
+                    <div class="coporate"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Adobe_Corporate_logo.svg/2560px-Adobe_Corporate_logo.svg.png" alt="..."></div>
+                    <div class="coporate"><img src="https://photos.prnewswire.com/prnfull/20161207/446491LOGO" alt="..."></div>
+                    <div class="coporate"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/ICICI_Bank_Logo.svg/1280px-ICICI_Bank_Logo.svg.png" alt="..."></div>
+                    <div class="coporate"><img src="https://www.universalhunt.com/unihunt_databank/logos/A/logo_70171462265455.jpg" alt="..."></div>
+                    <div class="coporate"><img src="https://thewealthmosaic.s3.amazonaws.com/media/Logo_Nagarro.png" alt="..."></div>
+                    <div class="coporate"><img src="https://seekvectorlogo.com/wp-content/uploads/2021/12/zycus-vector-logo-2021.png" alt="..."></div>
+                    <div class="coporate"><img src="https://www.growisto.com/wp-content/uploads/2024/01/logo.png" alt="..."></div>
+                    <div class="coporate"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Axis_Bank_logo.svg/1200px-Axis_Bank_logo.svg.png" alt="..."></div>
+                    <div class="coporate"><img src="https://info.coindcx.com/wp-content/uploads/2020/09/CD_Logo.svg" alt="..."></div>
+                    <div class="coporate"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgNnFkD0rATxANjAvKFjTSRfgLgqVXBnhCYg&s" alt="..."></div>
+                    <div class="coporate"><img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Infoedgelogo.png" alt="..."></div>
+                    <div class="coporate"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCAo-SPSx1C9dxQtF_ip35f-BrEW7h8cU96g&s" alt="..."></div>
+                    <div class="coporate"><img src="https://cdn.cookielaw.org/logos/5cb57702-8ef7-437e-a62b-408fe78cd310/6363e1f2-8f9e-4538-82e0-901d90e0cf02/splogo.png" alt="..."></div>
+                    <div class="coporate"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Tech_Mahindra_New_Logo.svg/2560px-Tech_Mahindra_New_Logo.svg.png" alt="..."></div>
+                    <div class="coporate"><img src="https://i.pinimg.com/originals/7d/88/96/7d8896c9b20b9035f421a9a54781e380.png" alt="..."></div>
+                    <div class="coporate"><img src="https://upload.wikimedia.org/wikipedia/en/6/65/Dabur_Logo.svg" alt="..."></div>
+                    <div class="coporate"><img src="https://static.wixstatic.com/media/cf66d3_2478e874b7ed462f8ad61010d66e2a0b~mv2.png" alt="..."></div>
+
+
+
+
+
 
                 </div>
                 <button type="button" class="slider-nav" aria-label="Go left"></button>
@@ -554,7 +573,6 @@
 
     </div>
 
-</body>
 <script>
     let currentSlideNo = 0;
 
@@ -570,7 +588,10 @@
     }, 4000);
 </script>
 
+
+<script src="./nav-enable.js"></script>
 <script src="index.js"></script>
+</body>
 
 
 </html>
