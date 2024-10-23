@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('Header_folder\nav.html')
+    fetch('Header_folder/nav.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('nav-container').innerHTML = data;
@@ -15,4 +15,4 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(data => {
             document.getElementById('footer-container').innerHTML = data; // Insert into the page
         });
-});
+}); 
