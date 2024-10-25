@@ -3,10 +3,6 @@ document.addEventListener('DOMContentLoaded', function () {
         .then(response => response.text())
         .then(data => {
             document.getElementById('nav-container').innerHTML = data;
-            // Load the nav.js file after the HTML is loaded
-            let script = document.createElement('script');
-            script.src = 'Header_folder/nav.js';
-            document.body.appendChild(script);
         });
 });
 document.addEventListener("DOMContentLoaded", function () {
