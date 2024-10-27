@@ -241,7 +241,6 @@ document.addEventListener('DOMContentLoaded', function () {
     </div> -->
     </nav>`
             document.getElementById('nav-container').innerHTML = data;
-<<<<<<< HEAD
             
             // Load the nav.js file after the HTML is loaded
             let style = document.createElement('style')
@@ -502,9 +501,6 @@ nav #logo img {
             document.body.appendChild(script);
             // console.log(script);
             
-=======
-        });
->>>>>>> b0dfa35bf0bdf238dc597d7c8f09f129c2e275b3
 });
 document.addEventListener("DOMContentLoaded", function () {
     fetch('Footer_folder/footer.html')  // Load the nav.html file
